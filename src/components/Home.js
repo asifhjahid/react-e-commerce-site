@@ -1,6 +1,6 @@
 import React from 'react'
-import Banner from './Banner'
 import LeftSideBar from './LeftSideBar'
+import MainContent from './MainContent'
 import NavMenu from './NavMenu'
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
         <div>
             <NavMenu />
             <LeftSideBar />
-            <Banner />
+            <MainContent />
         </div>
     )
 }

@@ -3,31 +3,17 @@ import styled from "styled-components";
 
 const BannerStyle = styled.div`
                         
-                width: calc(100% - 290px);
-                margin-left: 290px;
-                        
-
-                            .homeContentArea {
-                            padding-top: 50px;
-                            /* margin-left: 66px; */
-                                .bannerArea {
-                                    width: 100%;
-                                    padding-bottom: 60px;
-                                    margin-top: 127px;
+                        .bannerArea {
+                            width: 100%;
+                            padding-bottom: 60px;
+                            margin-top: 127px;
                             /* display: none; */
                                     @media (min-width: 768px) {
                                             .bannerArea {
                                                 display: block;
                                             }
                                     }
-                                    .container {
-                                        max-width: 1240px;
-                                        width: 100%;
-                                        padding-left: 15px;
-                                        padding-right: 15px;
-                                        margin-left: auto;
-                                        margin-right: auto;
-                                        margin-top: -30px;
+                                    
                                         .carousel-root {
                                                 outline: none;
 
@@ -85,8 +71,8 @@ const BannerStyle = styled.div`
                                                     }
                                                  }
 
-                                        }
+                                        
                             }
-                        }
+                        
 `
 export default BannerStyle;
