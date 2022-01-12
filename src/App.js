@@ -1,15 +1,16 @@
 import React from 'react'
 import './App.css'
-import LeftSideBar from './components/LeftSideBar'
-import NavMenu from './components/NavMenu'
+import Home from './components/Home'
 
 
 export default function App() {
   return (
     <div>
 
-      <NavMenu />
-      <LeftSideBar />
+      <Home />
+      
+      {/* <NavMenu />
+      <LeftSideBar /> */}
       {/* <FakeApiStore /> */}
        
     </div>
