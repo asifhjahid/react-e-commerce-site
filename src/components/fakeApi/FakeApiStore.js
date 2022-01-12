@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import CartStyle from '../styles/FakeApiStore.styles';
+import CartStyle from '../../styles/FakeApiStore.styles';
 
 export default function FakeApiStore() {
         
