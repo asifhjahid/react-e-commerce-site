@@ -1,7 +1,9 @@
 import React from 'react'
+import FreshProductList from './FreshProductList'
+import ShowMore from './ShowMore'
 import Title from './Title'
 
-export default function FreshSection() {
+export default function FreshProductsSection() {
     return (
         <div>
             <Title 
@@ -10,6 +12,8 @@ export default function FreshSection() {
             সকাল ৮-১১ টা পর্যন্ত ।'
 
             />
+            <FreshProductList />
+            <ShowMore />
         </div>
     )
 }

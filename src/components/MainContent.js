@@ -1,7 +1,7 @@
 import React from 'react'
 import MainContentStyle from '../styles/MainContent.styles'
 import Banner from './Banner'
-import FreshSection from './FreshSection'
+import FreshProductsSection from './FreshProductsSection'
 import Preorder from './Preorder'
 
 export default function MainContent() {
@@ -11,7 +11,7 @@ export default function MainContent() {
 
                     <Banner />
                     <Preorder />
-                    <FreshSection />
+                    <FreshProductsSection />
 
 
 
