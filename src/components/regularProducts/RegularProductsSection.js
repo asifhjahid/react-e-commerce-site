@@ -1,6 +1,7 @@
 import React from 'react'
 import RegularProductStyle from '../../styles/RegularProductSection.styles'
 import RegularProductList from '../RegularProductList'
+import ShowMore from '../ShowMore'
 import Title from '../Title'
 
 export default function RegularProductsSection() {
@@ -13,6 +14,7 @@ export default function RegularProductsSection() {
 
             />
             <RegularProductList />
+            <ShowMore />
         </RegularProductStyle>
     )
 }
