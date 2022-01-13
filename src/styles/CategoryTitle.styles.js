@@ -13,6 +13,7 @@ const CategoryTitleStyle =styled.div`
 
                 .sectionHeading {
                         font-size: 30px;
+                        font-family: sans-serif;
                         text-transform: capitalize;
                         font-weight: 600;
                         display: inline-block;

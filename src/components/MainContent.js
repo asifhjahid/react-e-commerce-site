@@ -5,6 +5,7 @@ import CategoryProducts from './categoryProducts/CategoryProducts'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
 import Preorder from './Preorder'
 import RegularProductsSection from './regularProducts/RegularProductsSection'
+import ServiceSection from './serviceSection/ServiceSection'
 
 
 
@@ -19,6 +20,7 @@ export default function MainContent() {
                    <FreshProductsSection />
                    <RegularProductsSection />
                    <CategoryProducts />
+                   <ServiceSection />
 
 
 

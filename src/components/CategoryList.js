@@ -12,7 +12,7 @@ import CategorImage_8 from '../images/categoryImages/category_8.png'
 import CategorImage_9 from '../images/categoryImages/category_9.png'
 import CategoryListStyle from '../styles/CategoryList.styles'
 import CategoryItem from './CategoryItem'
-import CategoryTitle from './CategoryTitle'
+import CategoryTitle from './CategoryServiceTitle'
 
 
 export default function CategoryList() {
@@ -21,7 +21,9 @@ export default function CategoryList() {
             
                   {/* <div class="container"> */}
                    
-                   <CategoryTitle />
+                   <CategoryTitle 
+                   title='Shodaimama Categories'
+                   />
                    
                    <div class="categoryItems">
                     <div>

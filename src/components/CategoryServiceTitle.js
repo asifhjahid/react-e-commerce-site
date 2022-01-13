@@ -1,12 +1,12 @@
 import React from 'react'
 import CategoryTitleStyle from '../styles/CategoryTitle.styles'
 
-export default function CategoryTitle() {
+export default function CategoryServiceTitle({title}) {
     return (
         <CategoryTitleStyle>
            
                     <div class="sectionHeadingArea">
-                      <p class="sectionHeading">Shodaimama Categories</p>
+                      <p class="sectionHeading">{title}</p>
                     </div>
                   
                  
