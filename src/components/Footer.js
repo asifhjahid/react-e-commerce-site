@@ -4,6 +4,7 @@ import LogoImage from '../images/logo/logo.png';
 import FooterStyle from '../styles/Footer.styles';
 import Contact from './Contact';
 import FooterItem from './FooterItem';
+import PaymentSection from './PaymentSection';
 
 
 export default function Footer() {
@@ -54,7 +55,7 @@ export default function Footer() {
                
               </div>
 
-            
+            <PaymentSection />
 
               
             {/* </div> */}
