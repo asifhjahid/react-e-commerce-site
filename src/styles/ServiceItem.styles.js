@@ -19,6 +19,7 @@ const ServiceItemStyle=styled.div`
                                 }
                  .serviceContentTitle {
                         font-size: 17px;
+                        font-family: sans-serif;
                         font-weight: 500;
                         color: #313131;
                         margin-bottom: 5px;
@@ -26,6 +27,7 @@ const ServiceItemStyle=styled.div`
                  }
                         .serviceSubContentTitle {
                                 font-size: 14px;
+                                font-family: sans-serif;
                                 font-weight: 400;
                                 color: #615e58;
                                 line-height: 24px;

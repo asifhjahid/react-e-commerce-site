@@ -11,10 +11,14 @@ import styled from "styled-components";
                             overflow: hidden;
                             background: #fff;
                             box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-                            /* height: 400px; */
+                            /* height: 200px; */
                             /* width: 255px; */
-                                    
-                            }
+                           
+                        }
+                        /* .regularProduct{
+                                height: 200px;
+                            } */
+                            
 
 
             

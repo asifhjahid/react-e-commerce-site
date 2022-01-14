@@ -23,6 +23,7 @@ import styled from "styled-components";
 
                                  .common__product__title {
                                         font-size: 25px;
+                                        font-family: sans-serif;
                                         font-weight: 600;
                                         line-height: 40px;
                                         color: #313131;
@@ -30,6 +31,7 @@ import styled from "styled-components";
                                         }
                                 .common__product__subTitle {
                                         font-size: 18px;
+                                        font-family: sans-serif;
                                         font-weight: 400;
                                         text-transform: capitalize;
                                         line-height: 30px;

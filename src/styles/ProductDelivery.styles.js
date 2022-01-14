@@ -17,6 +17,7 @@ const ProductDeliveryStyle =styled.div`
                             }
                         p {
                             font-weight: 500;
+                            font-family: sans-serif;
                             color: #9b9898;
                             margin-left: 5px;
                             line-height: 25px;
@@ -27,6 +28,7 @@ const ProductDeliveryStyle =styled.div`
                         .productDeliveryText {
                             padding-right: 10px;
                             font-size: 10px;
+                            font-family: sans-serif;
                             line-height: 25px;
                             font-weight: 500;
                             color: #868585;

@@ -81,6 +81,7 @@ const NavStyle = styled.div`
                 transition: all 0.1s linear;
                     a {
                     font-size: 20px;
+                    font-family: sans-serif;
                     color:#006a4e;
                     }
                     /* .fa-map-marker-alt {
@@ -91,6 +92,7 @@ const NavStyle = styled.div`
                     .cityText {
                     font-weight: 600;
                     font-size: 14px;
+                    font-family: sans-serif;
                     color: #006a4e;
                     margin-top: 3px;
                     margin-left: 6px;
@@ -108,6 +110,7 @@ const NavStyle = styled.div`
                     cursor: pointer;
                         .user{
                         font-size: 20px;
+                        font-family: sans-serif;
                         width: 15px;
                         height: 15px;
                         color: #006a4e;
@@ -115,6 +118,7 @@ const NavStyle = styled.div`
                         }
                         .signInTextForHeader {
                         font-size: 14px;
+                        font-family: sans-serif;
                         font-weight: 600;
                         color: #006a4e;
                         margin: 3px 0 0 8px;
@@ -183,7 +187,7 @@ const NavStyle = styled.div`
                                     position: absolute;
                                     left: 50%;
                                     bottom: 0;
-                                    height: 2.25px;
+                                    height: .5px;
                                     width: calc(100% - 20px);
                                     background-color: hsla(0, 0%, 100%, 0.47843137254901963);
                                     -webkit-transform: translateX(-50%);
@@ -193,19 +197,24 @@ const NavStyle = styled.div`
                                 
                                 .right__cart__info__style {
                                     font-size: 16px;
+                                    font-family: sans-serif;
                                     font-weight: 600;
                                     color: #fff;
                                     text-decoration: none;
                                     .right__cart__info__icon {
                                         font-size: 13px;
+                                        font-family: sans-serif;
                                         font-weight: 400;
                                         display: inline-block;
+                                        margin-right: 4px;
                                         }
                                     }
                                 }
                         }
                     }
-            
+                            a{
+                                text-decoration: none;
+                            }
         
 
            

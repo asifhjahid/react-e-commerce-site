@@ -19,7 +19,7 @@ export default function FreshProductList() {
             <div class="productListArea">
                       <div class="productCart">
                         
-                        <div>
+                        <div className='product'>
                         <Product 
                         productType='Fresh'
                         productImage={FreshProduct_1}

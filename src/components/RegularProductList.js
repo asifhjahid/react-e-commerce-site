@@ -16,10 +16,10 @@ import ProductDetailsButton from './ProductDetailsButton'
 export default function RegularProductList() {
     return (
         <RegularProductListStyle>
-            <div class="productListArea">
-                      <div class="productCart">
+            <div className="productListArea"> 
+                      <div className="productCart">
                         
-                        <div>
+                        <div className='regularProduct'>
                         <Product 
                         productType='Regular'
                         productImage={RegularProduct_1}
@@ -32,7 +32,7 @@ export default function RegularProductList() {
                         <AddToButton />
                         </div>
                        
-                        <div>
+                        <div className='regularProduct'>
                         <Product 
                         productType='Regular'
                         productImage={RegularProduct_2}
@@ -45,7 +45,7 @@ export default function RegularProductList() {
                         <AddToButton />
                         </div>
 
-                        <div>
+                        <div className='regularProduct'>
                         <Product 
                         productType='Regular'
                         productImage={RegularProduct_3}
@@ -58,7 +58,7 @@ export default function RegularProductList() {
                         <AddToButton />
                         </div>
                         
-                        <div>
+                        <div className='regularProduct'>
                         <Product 
                         productType='Regular'
                         productImage={RegularProduct_4}
@@ -71,7 +71,7 @@ export default function RegularProductList() {
                         <AddToButton />
                         </div>
 
-                        <div>
+                        <div className='regularProduct'>
                         <Product 
                         productType='Regular'
                         productImage={RegularProduct_5}
@@ -84,7 +84,7 @@ export default function RegularProductList() {
                         <AddToButton />
                         </div>
 
-                        <div>
+                        <div className='regularProduct'>
                         <Product 
                         productType='Regular'
                         productImage={RegularProduct_6}
@@ -97,7 +97,7 @@ export default function RegularProductList() {
                         <AddToButton />
                         </div>
 
-                        <div>
+                        <div className='regularProduct'>
                         <Product 
                         productType='Regular'
                         productImage={RegularProduct_7}
@@ -110,7 +110,7 @@ export default function RegularProductList() {
                         <AddToButton />
                         </div>
 
-                        <div>
+                        <div className='regularProduct'>
                         <Product 
                         productType='Regular'
                         productImage={RegularProduct_8}

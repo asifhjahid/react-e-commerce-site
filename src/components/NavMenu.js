@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineUser } from 'react-icons/ai';
+import { FaUserAlt } from 'react-icons/fa';
 import { IoLocationSharp } from 'react-icons/io5';
 import LogoImg from '../images/logo/logo.png';
 import Search from '../images/search.png';
@@ -33,7 +33,7 @@ export default function NavMenu() {
             <span>
               <div class="navLanguageSettingsCol">
                 <div className='user'>
-                  <AiOutlineUser />
+                  <FaUserAlt />
                 </div>
                 <div class="signInTextForHeader">Sign In</div>
               </div>

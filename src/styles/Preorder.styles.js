@@ -53,6 +53,7 @@ const PreorderStyle = styled.div`
                                                 height: 60px;
                                                 p {
                                                     font-size: 16px;
+                                                    font-family: sans-serif;
                                                     font-weight: 500;
                                                     padding: 3px 10px;
                                                     color: #615e58;

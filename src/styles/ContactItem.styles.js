@@ -6,6 +6,7 @@ const ContactItemStyle =styled.div`
                     display: flex;
                     list-style: none;
                     font-size: 18px;
+                    font-family: sans-serif;
                     color:#006a4e;
                     &:not(:last-child) {
                     margin-bottom: 8px;
@@ -15,6 +16,7 @@ const ContactItemStyle =styled.div`
                         transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
                         color:#615e58;
                         font-size: 14px;
+                        font-family: sans-serif;
                         font-weight: 400;
                         
                     }

@@ -21,6 +21,7 @@ const LeftSideBarListItemsStyle = styled.div`
                                         font-weight: 700;
                                         padding: 10px;
                                         text-decoration: none;
+                                        font-family: sans-serif;
                                         .categoryImageIcon {
                                                     width: 30px;
                                                     position: absolute;

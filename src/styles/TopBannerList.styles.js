@@ -27,6 +27,7 @@ const TopBannerListStyle =styled.div`
                                 border-right: 1px solid #c7c3c3;
                                   .globalBtn_link {
                                     font-size: 16px;
+                                    font-family: sans-serif;
                                     font-weight: 600;
                                     color: #313131;
                                     line-height: 30px;

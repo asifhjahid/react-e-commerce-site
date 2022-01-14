@@ -7,7 +7,8 @@ const ProductStyle =styled.div`
                 .product {
                 cursor: pointer;
                     .productContent {
-                        height: calc(100% - 109px);
+                        /* height: calc(100% - 109px); */
+                        height: 200px;
                         text-align: center;
                         position: relative;
                         border: 1px solid rgba(251, 231, 231, 0.38823529411764707);
@@ -23,6 +24,7 @@ const ProductStyle =styled.div`
                             position: absolute;
                             right: 14px;
                             font-size: 12px;
+                            font-family: sans-serif;
                             top: 10px;
                             padding: 2px 6px;
                             border-radius: 3px;
@@ -30,6 +32,7 @@ const ProductStyle =styled.div`
                             a{
                                 color: #ffffff;
                                 text-decoration: none;
+                                font-family: sans-serif;
                             }
                         }
                         .fresh {
@@ -39,9 +42,10 @@ const ProductStyle =styled.div`
                          .productImageArea{
                             align-items: center;
                             justify-content: center;
+                            margin-bottom: 14px;
                             img {
-                            width: 120px;
-                            height: 120px;
+                            width: 100px;
+                            height: 100px;
                             transition: 0.5s;
                             z-index: 9;
                                 &:hover {
@@ -64,12 +68,14 @@ const ProductStyle =styled.div`
                                 @media (min-width: 440px) {
                                 .productName {
                                     font-size: 16px;
+                                    font-family: sans-serif;
                                     line-height: 25px;
                                         }
                                         }
                                     }
                         .productSubtext {
                                 font-size: 12px;
+                                font-family: sans-serif;
                                 margin-top: 3px;
                                 color: #fb6801;
                                 font-weight: 500;
@@ -78,15 +84,18 @@ const ProductStyle =styled.div`
                                     margin-top: 5px;
                                 .quantitySymbol {
                                     font-size: 13px;
+                                    font-family: sans-serif;
                                     font-weight: 500;
                                     color: #605e58;
                                     }
                                 .prodcutPrice{
                                     font-weight: 700;
+                                    font-family: sans-serif;
                                     color: #605e58;
                                     @media (min-width: 440px){
                                         .prodcutPrice{
                                             font-size: 18px;
+                                            font-family: sans-serif;
                                         }
                                     }
                                 }

@@ -10,6 +10,7 @@ const ShowMoreStyle =styled.div`
                                 a {
                                             color: #9c9c9c;
                                             font-size: 15px;
+                                            font-family: sans-serif;
                                             font-weight: 600;
                                             display: flex;
                                             align-items: center;

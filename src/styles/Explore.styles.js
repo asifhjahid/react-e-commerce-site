@@ -17,6 +17,7 @@ const ExploredStyle = styled.div`
                         justify-content: center;
                         .leftSideBarTopNavItemLink {
                                     font-size: 15px;
+                                    font-family: sans-serif;
                                     color: #006a4e;
                                     font-weight: 700;
                                     padding: 10px;

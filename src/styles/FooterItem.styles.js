@@ -25,6 +25,7 @@ const FooterItemStyle= styled.div`
                                 transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
                                 color: #615e58;
                                 font-size: 14px;
+                                font-family: sans-serif;
                                 font-weight: 400;
                                 text-decoration: none;
                                 font-family: sans-serif;

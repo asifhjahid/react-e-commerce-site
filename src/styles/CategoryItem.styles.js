@@ -42,6 +42,7 @@ const CategoryItemStyle=styled.div`
                             .categoryName {
                                     color: #615e58;
                                     font-size: 14px;
+                                    font-family: sans-serif;
                                     font-weight: 400;
                                     text-align: center;
                                     display: block;

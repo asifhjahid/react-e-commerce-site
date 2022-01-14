@@ -11,6 +11,7 @@ const ProductDetailsButtonStyle=styled.div`
                 .productCardDetailsBtn {
                     border: 1px solid #006a4e;
                     font-size: 11px;
+                    font-family: sans-serif;
                     padding: 0 10px;
                     font-weight: 600;
                     color: #006a4e;

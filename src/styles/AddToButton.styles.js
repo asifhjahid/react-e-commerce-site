@@ -12,6 +12,7 @@ const ButtonStyle = styled.div`
             color: #ffffff;
             justify-content: center;
             font-size: 14px;
+            font-family: sans-serif;
             transition: all 0.1s linear;
             cursor: pointer;
             background-color: #006a4e;

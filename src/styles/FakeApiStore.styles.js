@@ -26,11 +26,13 @@ const CartStyle = styled.div`
         }
         p{
             font-size: 10px;
+            font-family: sans-serif;
         }
         h2{
             text-align: center;
             color: #ffffff;
             font-size: 10px;
+            font-family: sans-serif;
         }
         
         img{

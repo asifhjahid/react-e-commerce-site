@@ -32,6 +32,7 @@ const FooterStyle=styled.div`
                                     margin-top: 25px;
                                         a{
                                             font-size: 18px;
+                                            font-family: sans-serif;
                                             color: #006a4e;
                                             transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
                                             &:hover{
