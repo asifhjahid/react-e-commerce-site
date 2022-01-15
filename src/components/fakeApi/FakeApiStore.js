@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CartStyle from '../../styles/FakeApiStore.styles';
+import AddToButton from '../AddToButton';
 
 export default function FakeApiStore() {
         
@@ -20,21 +21,30 @@ export default function FakeApiStore() {
 
     return (
         <CartStyle>
-            <div className='container'>
+            <div className="productListArea"> 
+             <div className="productCart">
                {products.map((product)=>{
                    return(
-                       <>
-                        <div className='cart'>
+                       <div>
+                        
+                            <div className='cart'>
+                            
+                            <img src={product.image} alt='' />
+
                             <div className='content'>
                                 <h2>{product.title}</h2>
                                 <p>{product.description}</p>
+
+                                
                             </div>
-                            <img src={product.image} alt='' />
+                            <div>
+                            <AddToButton />
+                            </div>
                         </div>
-                     </>
+                     </div>
                    )
                })}
-                
+                </div>
             </div>
         </CartStyle>
     )

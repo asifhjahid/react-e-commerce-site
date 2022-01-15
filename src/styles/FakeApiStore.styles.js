@@ -1,7 +1,20 @@
 import styled from 'styled-components';
 
 const CartStyle = styled.div`
-           
+           .productCart{
+                            display: grid;
+                            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+                            grid-gap: 20px;
+                             
+                            overflow: hidden;
+                            /* background: #fff; */
+                           
+
+                            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+                            /* height: 200px; */
+                            /* width: 255px; */
+                           
+                        }
 
         .container{
             /* background-color: #ffffff; */
@@ -14,32 +27,47 @@ const CartStyle = styled.div`
            
         }
         .cart{
-            background-color: aqua;
-            width: 200px;
-            height: 250px;
-            margin: 5px 0;
-            padding: 0 4px;
-            box-shadow: 2px 2px 10px #fff;
+            /* background-color: aqua; */
+            /* width: 200px; */
+            height: 400px;
+            /* margin: 5px 0;
+            padding: 0 4px; */
+            box-shadow: 1px 1px 2px grey;
+            img{
+            width: 90px;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* object-fit: contain; */
+            padding: 10px 0;
+            margin: 0 auto;
+            }
         }
         .content{
-            margin-bottom: 5px;
-        }
-        p{
-            font-size: 10px;
-            font-family: sans-serif;
-        }
-        h2{
+            margin-bottom: 20px;
+            height: 250px;
+            
+            h2{
             text-align: center;
-            color: #ffffff;
+            color: #000000;
             font-size: 10px;
             font-family: sans-serif;
+            margin-bottom: 10px;
+            overflow: hidden;
+
+            }
+            p{
+            font-size: 10px;
+            font-family: sans-serif;
+            padding: 5px;
+            overflow: hidden;
+            }
         }
         
-        img{
-            width: 100px;
-            height: 100px;
-            object-fit: contain;
-        }
+        
+        
+        
 
 `
 
