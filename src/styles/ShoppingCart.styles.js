@@ -29,7 +29,7 @@ const ShoppingCartStyle = styled.div`
                             z-index: 1;
                             position: relative;
                             font-size: 1.8rem;
-                            /* display: flex; */
+                            display: flex;
                             p{
                                     position: absolute;
                                     top: -5px;
@@ -42,25 +42,29 @@ const ShoppingCartStyle = styled.div`
                                 }
                         }
                   }
-            }
+            
             .cartBox{
-                    position: fixed;
+                    position: absolute;
                     top: 0;
                     left: 0;
-                    height: 100%;
+                    height: 130px;
                     width: 100%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    background: rgba(0, 0, 0, 0.8);
-                    z-index: 99999;
+                    /* background: rgba(0, 0, 0, 0.8); */
+                    background-color: #000000;
+                    z-index:99999;
                     transition: 0.3s linear;
-                    transform: scale(0);
+                    /* transform: scale(0); */
+                    &:active{
+                        transform: scale(1);
+                    }
                     .cart{
                             position: relative;
                             height: 70%;
                             width: 80%;
-                            background: #fff;
+                            background: #000000;
                             display: flex;
                             flex-direction: column;
                             align-items: center;
@@ -70,22 +74,23 @@ const ShoppingCartStyle = styled.div`
                                     top: 0;
                                     background:#f00;
                                     padding:10px 15px;
-                                    color: #fff;
+                                    color: #ffffff;
                                     cursor: pointer;
                                     &:hover{
                                         background-color: #ff0000a5;
                                     }
                                 }
                              h1{
-                                position: relative;
+                                /* position: relative; */
                                 margin-top: 2%;
                                 font-size: 2.8rem;
-                                color: #017bf5;
+                                /* color: #017bf5; */
+                                color: #ffffff;
                             }
-                        }
+                        } 
                 }
 
-
+            }
 
 `
 export default ShoppingCartStyle;
