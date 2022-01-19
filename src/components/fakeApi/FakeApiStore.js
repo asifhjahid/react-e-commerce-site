@@ -18,6 +18,9 @@ export default function FakeApiStore() {
         setProducts(data);
 
     }
+    useEffect(()=>{
+        localStorage.setItem('products',JSON.stringify(products));
+    },[products])
 
     return (
         <CartStyle>

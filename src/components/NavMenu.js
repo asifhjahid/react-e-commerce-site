@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FaUserAlt } from 'react-icons/fa';
 import { IoLocationSharp } from 'react-icons/io5';
+import cartContext from '../context/cartContext';
 import LogoImg from '../images/logo/logo.png';
 import Search from '../images/search.png';
 import NavStyle from '../styles/NavMenu.styles';
 
 
 export default function NavMenu() {
+  const ctx = useContext(cartContext)
     return (
         <NavStyle>
             <div class="navArea">
@@ -55,11 +57,11 @@ export default function NavMenu() {
                     class="right__cart__info__style border__bottom__under__list"
                   >
                     <img src={'https://shodaimama.netlify.app/images/artBoard.svg'} alt="" />
-                    0
+                    ({ctx.card.length})
                   </p>
                   <p class="right__cart__info__style">
                     <span class="right__cart__info__icon">৳</span>
-                    0
+                    ({ctx.card.length})
                   </p>
                 </div>
                 </div>
