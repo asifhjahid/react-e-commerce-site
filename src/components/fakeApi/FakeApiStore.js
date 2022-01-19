@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
+import cartContext from '../../context/cartContext';
 import CartStyle from '../../styles/FakeApiStore.styles';
 import AddToButton from '../AddToButton';
 
 export default function FakeApiStore() {
-        
+        const ctx = useContext(cartContext);
         const [products, setProducts] = useState([]);
-        console.log(products);
+        // console.log(products);
 
         useEffect(()=>{
             storeProducts();
@@ -41,7 +42,7 @@ export default function FakeApiStore() {
                                 
                             </div>
                             <div>
-                            <AddToButton />
+                            <AddToButton ctx={ctx}  />
                             </div>
                         </div>
                      </div>

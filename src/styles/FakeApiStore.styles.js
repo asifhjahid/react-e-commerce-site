@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const CartStyle = styled.div`
+            padding: 50px 0;
            .productCart{
                             display: grid;
                             grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));

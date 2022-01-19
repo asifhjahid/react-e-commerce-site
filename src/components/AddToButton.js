@@ -1,14 +1,14 @@
-import React, { useContext } from 'react';
-import cartContext from '../context/cartContext';
+import React from 'react';
 import ButtonStyle from '../styles/AddToButton.styles';
 
 
-export default function AddToButton() {
-    const ctx = useContext(cartContext);
+
+export default function AddToButton({ctx}) {
+    
     return (
         <ButtonStyle>
             <div class="bottomAddToCartBtn">
-                <button class="addButton" onClick={()=>ctx.addToCart}>Add To Cart</button>
+                <button class="addButton" onClick={()=>ctx.addToCart()}>Add To Cart</button>
             </div> 
         </ButtonStyle>
     )

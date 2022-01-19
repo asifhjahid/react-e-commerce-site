@@ -57,11 +57,11 @@ export default function NavMenu() {
                     class="right__cart__info__style border__bottom__under__list"
                   >
                     <img src={'https://shodaimama.netlify.app/images/artBoard.svg'} alt="" />
-                    ({ctx.card.length})
+                   {ctx.cart.length}
                   </p>
                   <p class="right__cart__info__style">
                     <span class="right__cart__info__icon">৳</span>
-                    ({ctx.card.length})
+                    0
                   </p>
                 </div>
                 </div>
