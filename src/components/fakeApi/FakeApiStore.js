@@ -4,7 +4,7 @@ import CartStyle from '../../styles/FakeApiStore.styles';
 import AddToButton from '../AddToButton';
 
 export default function FakeApiStore() {
-        const ctx = useContext(cartContext);
+        const cartBtn = useContext(cartContext);
         const [products, setProducts] = useState([]);
         // console.log(products);
 
@@ -42,7 +42,7 @@ export default function FakeApiStore() {
                                 
                             </div>
                             <div>
-                            <AddToButton ctx={ctx}  />
+                            <AddToButton cartBtn={cartBtn}  />
                             </div>
                         </div>
                      </div>

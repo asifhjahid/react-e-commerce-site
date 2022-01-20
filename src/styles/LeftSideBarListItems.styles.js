@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 const LeftSideBarListItemsStyle = styled.div`
-
+                
                 .leftSideBarTopNav {
                     /* border-bottom: 1px solid hsla(0, 0%, 50.2%, 0.21176470588235294); */
                     margin-top: 0;

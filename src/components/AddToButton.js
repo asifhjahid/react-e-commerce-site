@@ -3,12 +3,12 @@ import ButtonStyle from '../styles/AddToButton.styles';
 
 
 
-export default function AddToButton({ctx}) {
+export default function AddToButton({cartBtn}) {
     
     return (
         <ButtonStyle>
             <div class="bottomAddToCartBtn">
-                <button class="addButton" onClick={()=>ctx.addToCart()}>Add To Cart</button>
+                <button class="addButton" onClick={()=>cartBtn.addToCart()}>Add To Cart</button>
             </div> 
         </ButtonStyle>
     )

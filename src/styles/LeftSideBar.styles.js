@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 const LeftSideBarStyle =styled.div`
-
+               
                 .leftSideBar {
                 width: 290px;
                 box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);

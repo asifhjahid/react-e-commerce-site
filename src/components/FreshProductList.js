@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import cartContext from '../context/cartContext'
 import FreshProduct_1 from '../images/freshProducts/freshProduct_1.webp'
 import FreshProduct_2 from '../images/freshProducts/freshProduct_2.webp'
 import FreshProduct_3 from '../images/freshProducts/freshProduct_3.png'
@@ -14,6 +15,7 @@ import ProductDelivery from './ProductDelivery'
 import ProductDetailsButton from './ProductDetailsButton'
 
 export default function FreshProductList() {
+    const cartBtn = useContext(cartContext);
     return (
         <FreshProductListStyle>
             <div class="productListArea">
@@ -29,7 +31,7 @@ export default function FreshProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
                        
                         <div>
@@ -42,7 +44,7 @@ export default function FreshProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
 
                         <div>
@@ -55,7 +57,7 @@ export default function FreshProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
                         
                         <div>
@@ -68,7 +70,7 @@ export default function FreshProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
 
                         <div>
@@ -81,7 +83,7 @@ export default function FreshProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
 
                         <div>
@@ -94,7 +96,7 @@ export default function FreshProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
 
                         <div>
@@ -107,7 +109,7 @@ export default function FreshProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
 
                         <div>
@@ -120,7 +122,7 @@ export default function FreshProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
                     
                     </div>

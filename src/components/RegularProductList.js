@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import cartContext from '../context/cartContext'
 import RegularProduct_1 from '../images/regularProducts/regularProduct_1.jpg'
 import RegularProduct_2 from '../images/regularProducts/regularProduct_2.jpg'
 import RegularProduct_3 from '../images/regularProducts/regularProduct_3.jpg'
@@ -14,6 +15,7 @@ import ProductDelivery from './ProductDelivery'
 import ProductDetailsButton from './ProductDetailsButton'
 
 export default function RegularProductList() {
+    const cartBtn = useContext(cartContext);
     return (
         <RegularProductListStyle>
             <div className="productListArea"> 
@@ -29,7 +31,7 @@ export default function RegularProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
                        
                         <div className='regularProduct'>
@@ -42,7 +44,7 @@ export default function RegularProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
 
                         <div className='regularProduct'>
@@ -55,7 +57,7 @@ export default function RegularProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
                         
                         <div className='regularProduct'>
@@ -68,7 +70,7 @@ export default function RegularProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
 
                         <div className='regularProduct'>
@@ -81,7 +83,7 @@ export default function RegularProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
 
                         <div className='regularProduct'>
@@ -94,7 +96,7 @@ export default function RegularProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
 
                         <div className='regularProduct'>
@@ -107,7 +109,7 @@ export default function RegularProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
 
                         <div className='regularProduct'>
@@ -120,7 +122,7 @@ export default function RegularProductList() {
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
-                        <AddToButton />
+                        <AddToButton cartBtn={cartBtn} />
                         </div>
                     
                     </div>

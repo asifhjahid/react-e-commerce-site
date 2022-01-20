@@ -34,6 +34,7 @@ const ProductDeliveryStyle =styled.div`
                             color: #868585;
                             img {
                                 height: 22px;
+                                margin-left: 4px;
                                 }
                             }
                 }
