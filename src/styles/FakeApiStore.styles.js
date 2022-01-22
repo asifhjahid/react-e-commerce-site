@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const CartStyle = styled.div`
-            padding: 50px 0;
+            padding: 60px 0;
            .productCart{
                             display: grid;
                             grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -34,6 +34,7 @@ const CartStyle = styled.div`
             /* margin: 5px 0;
             padding: 0 4px; */
             box-shadow: 1px 1px 2px grey;
+            margin-bottom: 4px;
             img{
             width: 90px;
             height: 90px;
@@ -43,6 +44,11 @@ const CartStyle = styled.div`
             /* object-fit: contain; */
             padding: 10px 0;
             margin: 0 auto;
+            transition: 0.5s;
+             &:hover{
+                transform: scale(1.4);
+                transition: 0.5s;
+             }
             }
         }
         .content{
@@ -54,7 +60,7 @@ const CartStyle = styled.div`
             color: #000000;
             font-size: 10px;
             font-family: sans-serif;
-            margin-bottom: 10px;
+            margin: 4px 0 10px 0;
             overflow: hidden;
 
             }
