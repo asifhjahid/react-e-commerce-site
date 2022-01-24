@@ -105,7 +105,7 @@ export default function FreshProductList() {
                         productImage={FreshProduct_7}
                         productName='Roast Chicken'
                         productDesc='250 gm'
-                        productPrice='70'
+                        productPrice='150'
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
