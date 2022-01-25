@@ -14,8 +14,8 @@ const NavStyle = styled.div`
             position: fixed;
             z-index: 9999;
             box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
-            }
-            .navArea::after {
+            
+            &::after {
             content: "";
             display: block;
             clear: both;
@@ -42,6 +42,9 @@ const NavStyle = styled.div`
                     img{
                         width: 127px;
                         cursor: pointer;
+                        @media only screen and (max-width:768px){
+                            width: 70px;
+                        }
                     }
                 }
             }
@@ -212,6 +215,10 @@ const NavStyle = styled.div`
                                 }
                         }
                     }
+                }
+                .pl2{
+                    padding-left: 20px;
+                }
                             a{
                                 text-decoration: none;
                             }

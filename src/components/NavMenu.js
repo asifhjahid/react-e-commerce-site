@@ -11,7 +11,29 @@ export default function NavMenu() {
   const ctx = useContext(cartContext)
     return (
         <NavStyle>
-            <div class="navArea">
+            <div class="navArea pl2 clearFix">
+              <div className='showMobileMenu mobile__menu'>
+                  <div className='mobile__menu__left'>
+                        <div className='mobile__menu__top__content checkout_header_text'>
+                            <div className='show__location__to__mobile mobile__profile__relative'>
+                                <div className='headerLocationIcon'>
+                                      <FaUserAlt />
+                                    </div>
+                                <div class="location__and__signin__text">Sign In</div>
+                            </div>
+                            <div className='show__location__to__mobile'>
+                            <div class="navCityCol hover1 headerLocationIcon">
+                                <a href="">
+                                  <IoLocationSharp />
+                                </a>
+                                <span class="location__and__signin__text">Select Delivery Location</span>
+                              </div>
+                            </div>
+                         
+
+                        </div>
+                  </div>
+              </div>
             <div class="navInner">
             <div class="navLeftCol">
               <div class="navLogo">
