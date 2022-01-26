@@ -5,6 +5,7 @@ import cartContext from '../context/cartContext';
 import LogoImg from '../images/logo/logo.png';
 import Search from '../images/search.png';
 import NavStyle from '../styles/NavMenu.styles';
+import LeftSideBar from './LeftSideBar';
 
 
 export default function NavMenu() {
@@ -16,23 +17,32 @@ export default function NavMenu() {
                   <div className='mobile__menu__left'>
                         <div className='mobile__menu__top__content checkout_header_text'>
                             <div className='show__location__to__mobile mobile__profile__relative'>
-                                <div className='headerLocationIcon'>
+                              <div class="mobileNavLanguageSettingsCol">
+                              <div className='mobileUser'>
                                       <FaUserAlt />
-                                    </div>
-                                <div class="location__and__signin__text">Sign In</div>
+                              </div>
+                              </div>
+                                
+                                <div class="mobileSignInTextForHeader">Sign In</div>
                             </div>
                             <div className='show__location__to__mobile'>
-                            <div class="navCityCol hover1 headerLocationIcon">
+                            <div class="mobileNavCityCol hover1">
                                 <a href="">
                                   <IoLocationSharp />
                                 </a>
-                                <span class="location__and__signin__text">Select Delivery Location</span>
+                                <span class="mobileCityText">Select Delivery Location</span>
                               </div>
                             </div>
-                         
-
                         </div>
+                        
+                         <LeftSideBar />
+                        
+                        
                   </div>
+
+                  <div className='mobile__menu__right'></div>
+                        
+                  
               </div>
             <div class="navInner">
             <div class="navLeftCol">
