@@ -20,11 +20,14 @@ const NavStyle = styled.div`
             display: block;
             clear: both;
             }
-            .mobile__menu{
+            .mobile__menu__top__content{
                 display: none;
             }
+            
             @media only screen and (max-width:768px){
-                
+                .hideItem{
+                    display: none;
+                }
                 .showMobileMenu{
                 left: 0;
                 }
@@ -40,6 +43,7 @@ const NavStyle = styled.div`
                 z-index: 9999;
                 margin-top: 83px;
                 transition: all .45s cubic-bezier(.23,1,.32,1) 0ms;
+                overflow: scroll;
                 .mobile__menu__left {
                         width: 290px;
                         /* background-color: #fff; */
@@ -50,6 +54,7 @@ const NavStyle = styled.div`
                         left: 0;
                         transition: all .45s cubic-bezier(.23,1,.32,1) 0ms;
                         overflow: overlay;
+                        /* display: none; */
                         .mobile__menu__top__content {
                                 padding: 13px 15px;
                                 background: #006a4e;
@@ -113,6 +118,9 @@ const NavStyle = styled.div`
                                 /* z-index: -1;
                                 display: block; */
                             }
+                            .hideItem{
+                            display: none !important;
+                        }
                     }
             }
         }
@@ -122,12 +130,30 @@ const NavStyle = styled.div`
             width: 100%;
             align-items: center;
             height: 55px;
-            }
-
+           
             .navLeftCol {
             width: 248px;
             display: flex;
             align-items: center;
+            .NavMobileOpen {
+                    /* width: 100px;
+                    height: 50px; */
+                    padding: 0px 6px;
+                    /* color: rgb(255, 255, 255); */
+                    display: none;
+                    outline: none;
+                    svg{
+                       
+                        font-size: 28px;
+                    }
+                    @media only screen and (max-width: 768px){ 
+                            display: block;
+                            /* margin-top: 10px; */
+                            cursor: pointer;  
+                        }
+                        
+            
+                    }
                 .navLogo {
                 height: 55px;
                 display: flex;
@@ -350,6 +376,7 @@ const NavStyle = styled.div`
                                 }
                         }
                     }
+                 }
                 }
                 .pl2{
                     padding-left: 20px;

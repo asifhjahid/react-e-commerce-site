@@ -23,12 +23,13 @@ const LeftSideBarStyle =styled.div`
                 position: relative;
                 top: 0;
                 left: 0;
-                padding-top: 12px;
+                /* padding-top: 12px; */
                 display: block;
                 box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
                 border-right: 1px solid rgba(119, 108, 108, 0.30980392156862746);
                 z-index: -1;
                 /* display: none; */
+                overflow: overlay;
             
         }
      }

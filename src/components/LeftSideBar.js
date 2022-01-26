@@ -19,10 +19,10 @@ import LeftSideBarStyle from '../styles/LeftSideBar.styles'
 import Explore from './Explore'
 import LeftSideBarListItems from './LeftSideBarListItems'
 
-export default function LeftSideBar() {
+export default function LeftSideBar({showNav,setShowNav}) {
     return (
         <LeftSideBarStyle>
-          <div class="leftSideBar">
+          <div className='leftSideBar'>
               
                 <LeftSideBarListItems
                 image = { HomeImage}

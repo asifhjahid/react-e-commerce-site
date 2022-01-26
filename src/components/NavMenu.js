@@ -1,20 +1,22 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { FaUserAlt } from 'react-icons/fa';
 import { IoLocationSharp } from 'react-icons/io5';
+import { MdMenu } from 'react-icons/md';
 import cartContext from '../context/cartContext';
 import LogoImg from '../images/logo/logo.png';
 import Search from '../images/search.png';
 import NavStyle from '../styles/NavMenu.styles';
 import LeftSideBar from './LeftSideBar';
 
-
 export default function NavMenu() {
-  const ctx = useContext(cartContext)
+  const [showNav,setShowNav]= useState(false);
+  const ctx = useContext(cartContext);
     return (
         <NavStyle>
             <div class="navArea pl2 clearFix">
               <div className='showMobileMenu mobile__menu'>
-                  <div className='mobile__menu__left'>
+                  <div className='mobile__menu__left'
+                 >
                         <div className='mobile__menu__top__content checkout_header_text'>
                             <div className='show__location__to__mobile mobile__profile__relative'>
                               <div class="mobileNavLanguageSettingsCol">
@@ -34,9 +36,13 @@ export default function NavMenu() {
                               </div>
                             </div>
                         </div>
-                        
-                         <LeftSideBar />
-                        
+                        <div 
+                       
+                        >
+
+                      
+                         <LeftSideBar  />
+                        </div>
                         
                   </div>
 
@@ -46,6 +52,11 @@ export default function NavMenu() {
               </div>
             <div class="navInner">
             <div class="navLeftCol">
+              <div className='NavMobileOpen'
+              onClick={()=>setShowNav(!showNav)}
+              >
+                <MdMenu />
+              </div>
               <div class="navLogo">
               <a href="#">
                 <img src={LogoImg} alt="" />
