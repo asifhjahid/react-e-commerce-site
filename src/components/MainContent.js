@@ -1,6 +1,5 @@
 import React from 'react'
 import MainContentStyle from '../styles/MainContent.styles'
-import FakeProductSection from './apiProducts/FakeProductSection.'
 import Banner from './Banner'
 import CategoryProducts from './categoryProducts/CategoryProducts'
 import Footer from './Footer'
@@ -21,7 +20,7 @@ export default function MainContent() {
                     <Preorder />
                    <FreshProductsSection />
                    <RegularProductsSection />
-                   <FakeProductSection />
+                   {/* <FakeProductSection /> */}
                    <CategoryProducts />
                    <ServiceSection />
                    <Footer />

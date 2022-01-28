@@ -36,14 +36,14 @@ const NavStyle = styled.div`
                 display: block;
                 height: calc(100vh - 84px);
                 min-height: 600px;
-                width: 100%;
+                width: 38.8%;
                 position: fixed;
                 /* left: -100%; */
                 top: 0;
                 z-index: 9999;
                 margin-top: 83px;
                 transition: all .45s cubic-bezier(.23,1,.32,1) 0ms;
-                overflow: scroll;
+                overflow: overlay;
                 .mobile__menu__left {
                         width: 290px;
                         /* background-color: #fff; */
