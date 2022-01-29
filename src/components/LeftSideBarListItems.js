@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import LeftSideBarListItemsStyle from '../styles/LeftSideBarListItems.styles'
 
-export default function LeftSideBarListItems({image,title}) {
+export default function LeftSideBarListItems({image,title,to}) {
     return (
         <LeftSideBarListItemsStyle>
             <div class="leftSideBarTop leftSidebarBottom">
@@ -13,7 +14,7 @@ export default function LeftSideBarListItems({image,title}) {
                         src={image}
                         alt=""
                       />
-                      <span class="marginLeft">{title}</span>
+                     <Link to={to}> <span class="marginLeft">{title}</span></Link>
                     </a>
                   </li>
                   

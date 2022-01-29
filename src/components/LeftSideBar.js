@@ -19,6 +19,7 @@ import LeftSideBarStyle from '../styles/LeftSideBar.styles'
 import Explore from './Explore'
 import LeftSideBarListItems from './LeftSideBarListItems'
 
+
 export default function LeftSideBar({showNav,setShowNav}) {
     return (
         <LeftSideBarStyle>
@@ -27,21 +28,23 @@ export default function LeftSideBar({showNav,setShowNav}) {
                 <LeftSideBarListItems
                 image = { HomeImage}
                 title="Home"
+                to='/'
                 />
 
                 <LeftSideBarListItems
                 image = { FreshImage}
                 title="Fresh"
+                to='/freshproduct'
                 />
 
                 <LeftSideBarListItems
                 image = { RegularImage}
-                title="Regular"
+                title="/regularproduct"
                 />
 
                 <LeftSideBarListItems
                 image = { PreorderImage}
-                title="Preorder"
+                title="/preorder"
                 />
                <Explore />
                 <LeftSideBarListItems
