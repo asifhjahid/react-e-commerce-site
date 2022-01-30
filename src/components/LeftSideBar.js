@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import BeveragesImage from '../images/leftImageListBottom/beverages.png'
 import BreakfastImage from '../images/leftImageListBottom/breakfast.png'
 import CookingImage from '../images/leftImageListBottom/cooking.png'
@@ -24,30 +25,34 @@ export default function LeftSideBar({showNav,setShowNav}) {
     return (
         <LeftSideBarStyle>
           <div className='leftSideBar'>
-              
+
+                <Link to='/' style={{textDecoration:"none"}}>
                 <LeftSideBarListItems
                 image = { HomeImage}
                 title="Home"
-                to="'/'"
+               
                 />
-
+               </Link>
+               <Link to='/freshproduct'  style={{textDecoration:"none"}}>
                 <LeftSideBarListItems
                 image = { FreshImage}
                 title="Fresh"
-                to="'/freshproduct'"
+               
                 />
-
+                </Link>
+                <Link to='/regularproduct'  style={{textDecoration:"none"}}>
                 <LeftSideBarListItems
                 image = { RegularImage}
                 title="Regular"
-                to=''
+                To='/regularproduct'
                 />
-
+                </Link>
+                <Link to='/preorder'  style={{textDecoration:"none"}}>
                 <LeftSideBarListItems
                 image = { PreorderImage}
                 title="Preorder"
-                to='/preorder'
                 />
+                </Link>
                <Explore />
                 <LeftSideBarListItems
                 image = { HygieneImage}

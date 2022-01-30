@@ -9,11 +9,9 @@ const MainContentStyle =styled.div`
                 .container{
                     max-width: 1240px;
                     width: 100%;
-                    padding-left: 15px;
-                    padding-right: 15px;
-                    margin-left: auto;
-                    margin-right: auto;
-                    margin-top: -30px;
+                    padding: 0 15px;
+                    margin: 22px auto 0 auto;
+                   
                 }
 
 

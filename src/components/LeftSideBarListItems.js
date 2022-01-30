@@ -1,12 +1,13 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
 import LeftSideBarListItemsStyle from '../styles/LeftSideBarListItems.styles'
 
-export default function LeftSideBarListItems({image,title,to}) {
+
+export default function LeftSideBarListItems({image,title,To}) {
     return (
         <LeftSideBarListItemsStyle>
             <div class="leftSideBarTop leftSidebarBottom">
                 <ul class="leftSideBarTopNav">
+                  
                   <li class="leftSideBarTopNavItem">
                     
                     <a class="leftSideBarTopNavItemLink" href="">
@@ -19,7 +20,7 @@ export default function LeftSideBarListItems({image,title,to}) {
                     </a>
                   
                   </li>
-                  
+                
                 </ul>
               </div>
               

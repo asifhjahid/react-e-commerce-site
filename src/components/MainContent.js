@@ -27,7 +27,7 @@ export default function MainContent() {
                 <Routes>
                     <Route path='/' element={<Home />}/>
                    <Route path='/banner' element={<Banner />}  />
-                   <Route path='/prorder' element={<Preorder />}  />
+                   <Route path='/preorder' element={<Preorder />}  />
                    <Route path='/freshproduct' element={<FreshProductsSection />}  />
                    <Route path='/regularproduct' element={<RegularProductsSection />}  />
                    <Route path='/categoryproduct' element={ <CategoryProducts />}  />
