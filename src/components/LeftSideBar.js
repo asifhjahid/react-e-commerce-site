@@ -28,23 +28,25 @@ export default function LeftSideBar({showNav,setShowNav}) {
                 <LeftSideBarListItems
                 image = { HomeImage}
                 title="Home"
-                to='/'
+                to="'/'"
                 />
 
                 <LeftSideBarListItems
                 image = { FreshImage}
                 title="Fresh"
-                to='/freshproduct'
+                to="'/freshproduct'"
                 />
 
                 <LeftSideBarListItems
                 image = { RegularImage}
-                title="/regularproduct"
+                title="Regular"
+                to=''
                 />
 
                 <LeftSideBarListItems
                 image = { PreorderImage}
-                title="/preorder"
+                title="Preorder"
+                to='/preorder'
                 />
                <Explore />
                 <LeftSideBarListItems

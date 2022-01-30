@@ -6,7 +6,6 @@ import cartContext from '../context/cartContext';
 import LogoImg from '../images/logo/logo.png';
 import Search from '../images/search.png';
 import NavStyle from '../styles/NavMenu.styles';
-import LeftSideBar from './LeftSideBar';
 
 export default function NavMenu() {
   const [showNav,setShowNav]= useState(false);
@@ -41,7 +40,7 @@ export default function NavMenu() {
                         >
 
                       
-                         <LeftSideBar  />
+                         {/* <LeftSideBar  /> */}
                         </div>
                         
                   </div>
