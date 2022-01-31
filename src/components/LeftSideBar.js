@@ -61,7 +61,7 @@ export default function LeftSideBar({showNav,setShowNav}) {
 
                 <LeftSideBarListItems
                 image = { BreakfastImage}
-                title="Breakfast & Sanacks"
+                title="Breakfast &amp; Sanacks"
                 />
                 <LeftSideBarListItems
                 image = { CookingImage}
@@ -69,11 +69,11 @@ export default function LeftSideBar({showNav,setShowNav}) {
                 />
                 <LeftSideBarListItems
                 image = { MeatFishImage}
-                title="Meat & Fish"
+                title="Meat &amp; Fish"
                 />
                 <LeftSideBarListItems
                 image = { FruitsImage}
-                title="Fruits & Vegetables"
+                title="Fruits &amp; Vegetables"
                 />
                 <LeftSideBarListItems
                 image = { DairyImage}
@@ -81,7 +81,7 @@ export default function LeftSideBar({showNav,setShowNav}) {
                 />
                 <LeftSideBarListItems
                 image = { FrozenImage}
-                title="Frozen & Canned"
+                title="Frozen &amp; Canned"
                 />
                 <LeftSideBarListItems
                 image = { BeveragesImage}
@@ -97,7 +97,7 @@ export default function LeftSideBar({showNav,setShowNav}) {
                 />
                 <LeftSideBarListItems
                 image = { KitchenImage}
-                title="Home & Kitchen"
+                title="Home &amp; Kitchen"
                 />
                 <LeftSideBarListItems
                 image = { StationaryImage}

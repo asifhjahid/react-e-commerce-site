@@ -12,7 +12,7 @@ import CategorImage_8 from '../images/categoryImages/category_8.png'
 import CategorImage_9 from '../images/categoryImages/category_9.png'
 import CategoryListStyle from '../styles/CategoryList.styles'
 import CategoryItem from './CategoryItem'
-import CategoryTitle from './CategoryServiceTitle'
+import CategoryTitle from './ServiceTitle'
 
 
 export default function CategoryList() {

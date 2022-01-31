@@ -1,7 +1,7 @@
 import React from 'react'
 import CategoryTitleStyle from '../styles/CategoryTitle.styles'
 
-export default function CategoryServiceTitle({title}) {
+export default function ServiceTitle({title}) {
     return (
         <CategoryTitleStyle>
            

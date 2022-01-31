@@ -8,8 +8,8 @@ import ServiceImage_6 from '../images/servicesImages/service_6.png'
 import ServiceImage_7 from '../images/servicesImages/service_7.png'
 import ServiceImage_8 from '../images/servicesImages/service_8.png'
 import ServiceListStyle from '../styles/ServiceList.styles'
-import ServiceTitle from './CategoryServiceTitle'
 import ServiceItem from './ServiceItem'
+import ServiceTitle from './ServiceTitle'
 
 
 export default function ServiceList() {
