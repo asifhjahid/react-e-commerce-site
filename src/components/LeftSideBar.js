@@ -53,12 +53,13 @@ export default function LeftSideBar({showNav,setShowNav}) {
                 title="Preorder"
                 />
                 </Link>
-               <Explore />
+                <Explore />
+                <Link to='/hygieneproduct'  style={{textDecoration:"none"}}>
                 <LeftSideBarListItems
                 image = { HygieneImage}
                 title="Hygiene"
                 />
-
+                </Link>
                 <LeftSideBarListItems
                 image = { BreakfastImage}
                 title="Breakfast &amp; Sanacks"

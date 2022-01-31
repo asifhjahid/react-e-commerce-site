@@ -1,12 +1,12 @@
 import React from 'react'
-import RegularProductStyle from '../../styles/RegularProductSection.styles'
 import RegularProductList from '../RegularProductList'
 import ShowMore from '../ShowMore'
 import Title from '../Title'
 
+
 export default function RegularProductsSection() {
     return (
-        <RegularProductStyle>
+        <div>
             <Title
             title='Regular'
             subTitle='২ ঘন্টার মধ্যে জরুরি প্রয়োজনীয় পণ্যসমূহ সরবরাহ করা হয় সকাল
@@ -15,6 +15,6 @@ export default function RegularProductsSection() {
             />
             <RegularProductList />
             <ShowMore />
-        </RegularProductStyle>
+        </div>
     )
 }

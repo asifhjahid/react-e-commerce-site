@@ -8,6 +8,7 @@ import CategoryProducts from './categoryProducts/CategoryProducts'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
 import Home from './Home'
+import HygieneProducts from './hygieneProducts/HygieneProducts'
 import LeftSideBar from './LeftSideBar'
 import Preorder from './Preorder'
 import RegularProductsSection from './regularProducts/RegularProductsSection'
@@ -32,6 +33,7 @@ export default function MainContent() {
                    <Route path='/regularproduct' element={<RegularProductsSection />}  />
                    <Route path='/categoryproduct' element={ <CategoryProducts />}  />
                    <Route path='/servicesection' element={ <ServiceSection />}  />
+                   <Route path='/hygieneproduct' element={<HygieneProducts />} />
                    <Route path='/footer' element={<Footer />}  />
                    
                    
