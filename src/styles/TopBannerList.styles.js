@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 const TopBannerListStyle =styled.div`
-
+                //margin-bottom: 110px;
                 .global_category_tab_btn_area {
                 height: 76px;
                 width: calc(100% - 280px);

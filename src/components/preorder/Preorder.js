@@ -1,11 +1,14 @@
 import React from 'react'
-import PreorderImage from '../images/bannerImages/preorderBanner.jpeg'
-import PreorderStyle from '../styles/Preorder.styles'
-import Title from './Title'
+import PreorderImage from '../../images/bannerImages/preorderBanner.jpeg'
+import PreorderStyle from '../../styles/Preorder.styles'
+import Title from '../Title'
+import TopBannerList from '../TopBannerList'
+
 export default function Preorder() {
     return (
         <div>
-             <Title 
+            <TopBannerList />
+             <Title
              title='Preorder'
              subTitle='বাজার দরের চেয়ে কম মূল্যে মৌসুমি পণ্য, ঐতিহ্যবাহী খাবার
              এবং মাসের বাজার সরবরাহ করা হয় ২-৭ দিনে ।'

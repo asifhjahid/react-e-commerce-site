@@ -65,6 +65,7 @@ const ProductStyle =styled.div`
                                 font-weight: 500;
                                 color: #1a1a1a;
                                 padding: 0 15px;
+                                font-family: sans-serif;
                                 @media (min-width: 440px) {
                                 .productName {
                                     font-size: 16px;

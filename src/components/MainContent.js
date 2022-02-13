@@ -11,7 +11,8 @@ import FreshProductsSection from './freshProducts/FreshProductsSection'
 import Home from './Home'
 import HygieneProducts from './hygieneProducts/HygieneProducts'
 import LeftSideBar from './LeftSideBar'
-import Preorder from './Preorder'
+import Localbreakfasts from './LocalBreakfasts'
+import Preorder from './preorder/Preorder'
 import RegularProductsSection from './regularProducts/RegularProductsSection'
 import ServiceSection from './serviceSection/ServiceSection'
 
@@ -35,7 +36,8 @@ export default function MainContent() {
                    <Route path='/categoryproduct' element={ <CategoryProducts />}  />
                    <Route path='/servicesection' element={ <ServiceSection />}  />
                    <Route path='/hygieneproduct' element={<HygieneProducts />} />
-                   <Route path='/breakfastproduct' element={<Breakfastandsnacks />} />
+                   <Route path='/breakfast-snacks' element={<Breakfastandsnacks />} />
+                   <Route path='/local-breakfast' element={<Localbreakfasts />} />
                    <Route path='/footer' element={<Footer />}  />
                    
                    

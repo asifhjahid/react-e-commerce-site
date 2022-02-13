@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import CategorImage_1 from '../images/categoryImages/category_1.png'
 import CategorImage_10 from '../images/categoryImages/category_10.png'
 import CategorImage_11 from '../images/categoryImages/category_11.png'
@@ -26,13 +27,14 @@ export default function CategoryList() {
                    />
                    
                    <div class="categoryItems">
+                   <Link to='/local-breakfast'  style={{textDecoration:"none"}}>
                     <div>
                     <CategoryItem 
                     categoryImage={CategorImage_1}
                     categoryName='Breakfast &amp; Snacks'
                     />
                     </div>
-                    
+                    </Link>
                     <div>
                      <CategoryItem 
                     categoryImage={CategorImage_2}

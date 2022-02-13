@@ -1,24 +1,22 @@
 import React from 'react'
 import Banner from './Banner'
-import BreakfastProductList from './BreakfastProductList'
 import CategoryProducts from './categoryProducts/CategoryProducts'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
-import Preorder from './Preorder'
+import Preorder from './preorder/Preorder'
 import RegularProductsSection from './regularProducts/RegularProductsSection'
 import ServiceSection from './serviceSection/ServiceSection'
+
 
 export default function Home() {
     return (
         <div>
             <Banner />
-            <Preorder/>
+            <Preorder />
             <FreshProductsSection />
             <RegularProductsSection />
             <CategoryProducts />
-            <BreakfastProductList />
             <ServiceSection />
-           
             <Footer />
             
         </div>

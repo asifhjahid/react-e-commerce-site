@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import BreakfastImage_1 from '../images/breakfastProducts/breakfast_1.png'
 import BreakfastImage_10 from '../images/breakfastProducts/breakfast_10.png'
 import BreakfastImage_11 from '../images/breakfastProducts/breakfast_11.png'
@@ -31,17 +32,19 @@ export default function BreakfastProductList() {
                    
                    <ServiceTitle 
                     
-                    title='Breakfast &amp; Sanacks'
+                    title='Breakfast &amp; Snacks'
                     
                    />
                    
                    <div class="categoryItems">
+                   <Link to='/local-breakfast'  style={{textDecoration:"none"}}>
                     <div>
                     <CategoryItem 
                     categoryImage={BreakfastImage_1}
                     categoryName='Local Breakfasts'
                     />
                     </div>
+                    </Link>
                     
                     <div>
                      <CategoryItem 
