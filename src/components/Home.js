@@ -1,5 +1,6 @@
 import React from 'react'
 import Banner from './Banner'
+import BreakfastProductList from './BreakfastProductList'
 import CategoryProducts from './categoryProducts/CategoryProducts'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
@@ -15,6 +16,7 @@ export default function Home() {
             <FreshProductsSection />
             <RegularProductsSection />
             <CategoryProducts />
+            <BreakfastProductList />
             <ServiceSection />
            
             <Footer />

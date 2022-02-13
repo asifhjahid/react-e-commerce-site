@@ -10,7 +10,7 @@ const MainContentStyle =styled.div`
                     max-width: 1240px;
                     width: 100%;
                     padding: 0 15px;
-                    margin: 22px auto 0 auto;
+                    margin: 35px auto 0 auto;
                    
                 }
 

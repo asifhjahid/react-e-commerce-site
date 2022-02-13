@@ -4,6 +4,7 @@ import {
 } from "react-router-dom"
 import MainContentStyle from '../styles/MainContent.styles'
 import Banner from './Banner'
+import Breakfastandsnacks from './breakfastAndSnacks/BreakfastAndSnacks'
 import CategoryProducts from './categoryProducts/CategoryProducts'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
@@ -34,6 +35,7 @@ export default function MainContent() {
                    <Route path='/categoryproduct' element={ <CategoryProducts />}  />
                    <Route path='/servicesection' element={ <ServiceSection />}  />
                    <Route path='/hygieneproduct' element={<HygieneProducts />} />
+                   <Route path='/breakfastproduct' element={<Breakfastandsnacks />} />
                    <Route path='/footer' element={<Footer />}  />
                    
                    
