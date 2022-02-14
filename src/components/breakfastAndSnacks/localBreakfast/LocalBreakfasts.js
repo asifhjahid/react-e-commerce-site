@@ -1,12 +1,14 @@
 import React from 'react';
+import ServiceTitle from '../../ServiceTitle';
+import TopBannerList from '../../TopBannerList';
 import LocalBreakfastProductList from './LocalBreakfastProductList';
-import ServiceTitle from './ServiceTitle';
-import TopBannerList from './TopBannerList';
+
+
 
 const Localbreakfasts = () => {
     return (
         <div>
-            <TopBannerList />
+           <TopBannerList />
             <ServiceTitle
             title='Local Breakfasts'
             />

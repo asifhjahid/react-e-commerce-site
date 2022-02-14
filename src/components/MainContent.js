@@ -5,16 +5,18 @@ import {
 import MainContentStyle from '../styles/MainContent.styles'
 import Banner from './Banner'
 import Breakfastandsnacks from './breakfastAndSnacks/BreakfastAndSnacks'
+import Cereals from './breakfastAndSnacks/Cereals/Cereals'
+import Localbreakfasts from './breakfastAndSnacks/localBreakfast/LocalBreakfasts'
 import CategoryProducts from './categoryProducts/CategoryProducts'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
 import Home from './Home'
 import HygieneProducts from './hygieneProducts/HygieneProducts'
 import LeftSideBar from './LeftSideBar'
-import Localbreakfasts from './LocalBreakfasts'
 import Preorder from './preorder/Preorder'
 import RegularProductsSection from './regularProducts/RegularProductsSection'
 import ServiceSection from './serviceSection/ServiceSection'
+
 
 export default function MainContent() {
     return (
@@ -38,6 +40,7 @@ export default function MainContent() {
                    <Route path='/hygieneproduct' element={<HygieneProducts />} />
                    <Route path='/breakfast-snacks' element={<Breakfastandsnacks />} />
                    <Route path='/local-breakfast' element={<Localbreakfasts />} />
+                   <Route path='/cereals' element={<Cereals />} />
                    <Route path='/footer' element={<Footer />}  />
                    
                    
