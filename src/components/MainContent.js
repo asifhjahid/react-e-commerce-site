@@ -7,6 +7,7 @@ import Banner from './Banner'
 import Breakfastandsnacks from './breakfastAndSnacks/BreakfastAndSnacks'
 import Cereals from './breakfastAndSnacks/Cereals/Cereals'
 import Localbreakfasts from './breakfastAndSnacks/localBreakfast/LocalBreakfasts'
+import Pasta from './breakfastAndSnacks/pasta/Pasta'
 import CategoryProducts from './categoryProducts/CategoryProducts'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
@@ -40,7 +41,9 @@ export default function MainContent() {
                    <Route path='/hygieneproduct' element={<HygieneProducts />} />
                    <Route path='/breakfast-snacks' element={<Breakfastandsnacks />} />
                    <Route path='/local-breakfast' element={<Localbreakfasts />} />
+                   <Route path='/local-breakfast' element={<Localbreakfasts />} />
                    <Route path='/cereals' element={<Cereals />} />
+                   <Route path='/pasta' element={<Pasta />} />
                    <Route path='/footer' element={<Footer />}  />
                    
                    

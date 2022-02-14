@@ -27,7 +27,7 @@ export default function CategoryList() {
                    />
                    
                    <div class="categoryItems">
-                   <Link to='/local-breakfast'  style={{textDecoration:"none"}}>
+                   <Link to='/breakfast-snacks'  style={{textDecoration:"none"}}>
                     <div>
                     <CategoryItem 
                     categoryImage={CategorImage_1}
