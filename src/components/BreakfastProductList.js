@@ -64,12 +64,16 @@ export default function BreakfastProductList() {
                     </div>
                     </Link>
 
+
+                    <Link to='/noodles'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={BreakfastImage_4}
                     categoryName='Noodles'
                     />
                     </div>
+                    </Link>
+
                     <div>
                      <CategoryItem 
                     categoryImage={BreakfastImage_5}
