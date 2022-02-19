@@ -47,6 +47,8 @@ import jamAndSpreadProduct_49 from '../../../images/jamAndSpreadsProducts/jamAnd
 import jamAndSpreadProduct_5 from '../../../images/jamAndSpreadsProducts/jamAndSpreadProduct_5.jpg'
 import jamAndSpreadProduct_50 from '../../../images/jamAndSpreadsProducts/jamAndSpreadProduct_50.jpg'
 import jamAndSpreadProduct_51 from '../../../images/jamAndSpreadsProducts/jamAndSpreadProduct_51.jpg'
+import jamAndSpreadProduct_52 from '../../../images/jamAndSpreadsProducts/jamAndSpreadProduct_52.jpg'
+import jamAndSpreadProduct_53 from '../../../images/jamAndSpreadsProducts/jamAndSpreadProduct_53.jpg'
 import jamAndSpreadProduct_6 from '../../../images/jamAndSpreadsProducts/jamAndSpreadProduct_6.jpg'
 import jamAndSpreadProduct_7 from '../../../images/jamAndSpreadsProducts/jamAndSpreadProduct_7.jpg'
 import jamAndSpreadProduct_8 from '../../../images/jamAndSpreadsProducts/jamAndSpreadProduct_8.jpg'
@@ -728,6 +730,32 @@ export default function JamAndSpreadsProductList() {
                         productName="Nutella Hazelnut Cocoa Spread"
                         productDesc='400 gm'
                         productPrice='589'
+                        />
+                        <ProductDetailsButton />
+                        <ProductDelivery />
+                        <AddToButton cartBtn={cartBtn} />
+                        </div>
+
+                        <div className='regularProduct'>
+                        <Product 
+                        productType='Regular'
+                        productImage={jamAndSpreadProduct_52}
+                        productName="Nocilla Cocoa Spread"
+                        productDesc='190 gm'
+                        productPrice='300'
+                        />
+                        <ProductDetailsButton />
+                        <ProductDelivery />
+                        <AddToButton cartBtn={cartBtn} />
+                        </div>
+
+                        <div className='regularProduct'>
+                        <Product 
+                        productType='Regular'
+                        productImage={jamAndSpreadProduct_53}
+                        productName="American Garden Mayonnaise Big..."
+                        productDesc='887 gm'
+                        productPrice='800'
                         />
                         <ProductDetailsButton />
                         <ProductDelivery />
