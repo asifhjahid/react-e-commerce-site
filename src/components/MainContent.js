@@ -4,6 +4,7 @@ import {
 } from "react-router-dom"
 import MainContentStyle from '../styles/MainContent.styles'
 import Banner from './Banner'
+import BakeryAndCakes from './breakfastAndSnacks/bakeryAndCakes/BakeryAndCakes'
 import Breakfastandsnacks from './breakfastAndSnacks/BreakfastAndSnacks'
 import Cereals from './breakfastAndSnacks/Cereals/Cereals'
 import Localbreakfasts from './breakfastAndSnacks/localBreakfast/LocalBreakfasts'
@@ -47,6 +48,7 @@ export default function MainContent() {
                    <Route path='/cereals' element={<Cereals />} />
                    <Route path='/pasta' element={<Pasta />} />
                    <Route path='/noodles' element={<Noodles />} />
+                   <Route path='/bakeryAndCakes' element={<BakeryAndCakes />} />
                    <Route path='/footer' element={<Footer />}  />
                    
                    
