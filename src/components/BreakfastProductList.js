@@ -102,13 +102,14 @@ export default function BreakfastProductList() {
                     </div>
                     </Link>
                     
+                    <Link to='/jamAndSpreads'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={BreakfastImage_8}
                     categoryName='Jam &amp; Spreads'
                     />
                     </div>
-                    
+                    </Link>
 
 
                     <div>
