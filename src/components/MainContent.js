@@ -16,6 +16,7 @@ import JamAndSpreads from './breakfastAndSnacks/jamAndSpreads/JamAndSpreads'
 import Juice from './breakfastAndSnacks/juice/Juice'
 import Localbreakfasts from './breakfastAndSnacks/localBreakfast/LocalBreakfasts'
 import Noodles from './breakfastAndSnacks/noodles/Noodles'
+import Nuts from './breakfastAndSnacks/nuts/Nuts'
 import Pasta from './breakfastAndSnacks/pasta/Pasta'
 import Sauces from './breakfastAndSnacks/sauces/Sauces'
 import Soups from './breakfastAndSnacks/soups/Soups'
@@ -67,6 +68,7 @@ export default function MainContent() {
                    <Route path='/coffee' element={<Coffee />}  />
                    <Route path='/cookies' element={<Cookies />}  />
                    <Route path='/dried-fruits' element={<DriedFruits />}  />
+                   <Route path='/nuts' element={<Nuts />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
