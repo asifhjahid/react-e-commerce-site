@@ -7,6 +7,7 @@ import Banner from './Banner'
 import BakeryAndCakes from './breakfastAndSnacks/bakeryAndCakes/BakeryAndCakes'
 import Breakfastandsnacks from './breakfastAndSnacks/BreakfastAndSnacks'
 import Cereals from './breakfastAndSnacks/Cereals/Cereals'
+import Coffee from './breakfastAndSnacks/coffee/Coffee'
 import EnergyBoosters from './breakfastAndSnacks/energyBoosters/EnergyBoosters'
 import Honey from './breakfastAndSnacks/honey/Honey'
 import JamAndSpreads from './breakfastAndSnacks/jamAndSpreads/JamAndSpreads'
@@ -61,6 +62,7 @@ export default function MainContent() {
                    <Route path='/energyBoosters' element={<EnergyBoosters />} />
                    <Route path='/sauces' element={<Sauces />} />
                    <Route path='/tea' element={<Tea />}  />
+                   <Route path='/coffee' element={<Coffee />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
