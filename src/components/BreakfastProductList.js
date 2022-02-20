@@ -120,13 +120,16 @@ export default function BreakfastProductList() {
                     </div>
                     </Link>
 
-                    
+                    <Link to='/energyBoosters'  style={{textDecoration:"none"}}>
                      <div>
                      <CategoryItem 
                     categoryImage={BreakfastImage_10}
                     categoryName='Energy Boosters'
                     />
                     </div>
+                    </Link>
+
+                    
                     <div>
                      <CategoryItem 
                     categoryImage={BreakfastImage_11}
