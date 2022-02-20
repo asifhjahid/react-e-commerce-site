@@ -16,6 +16,7 @@ import Noodles from './breakfastAndSnacks/noodles/Noodles'
 import Pasta from './breakfastAndSnacks/pasta/Pasta'
 import Sauces from './breakfastAndSnacks/sauces/Sauces'
 import Soups from './breakfastAndSnacks/soups/Soups'
+import Tea from './breakfastAndSnacks/tea/Tea'
 import CategoryProducts from './categoryProducts/CategoryProducts'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
@@ -59,7 +60,9 @@ export default function MainContent() {
                    <Route path='/honey' element={<Honey />} />
                    <Route path='/energyBoosters' element={<EnergyBoosters />} />
                    <Route path='/sauces' element={<Sauces />} />
+                   <Route path='/tea' element={<Tea />}  />
                    <Route path='/footer' element={<Footer />}  />
+                  
                    
                    </Routes>
                      
