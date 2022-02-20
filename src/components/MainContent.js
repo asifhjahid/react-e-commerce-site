@@ -14,6 +14,7 @@ import Juice from './breakfastAndSnacks/juice/Juice'
 import Localbreakfasts from './breakfastAndSnacks/localBreakfast/LocalBreakfasts'
 import Noodles from './breakfastAndSnacks/noodles/Noodles'
 import Pasta from './breakfastAndSnacks/pasta/Pasta'
+import Sauces from './breakfastAndSnacks/sauces/Sauces'
 import Soups from './breakfastAndSnacks/soups/Soups'
 import CategoryProducts from './categoryProducts/CategoryProducts'
 import Footer from './Footer'
@@ -57,6 +58,7 @@ export default function MainContent() {
                    <Route path='/jamAndSpreads' element={<JamAndSpreads />} />
                    <Route path='/honey' element={<Honey />} />
                    <Route path='/energyBoosters' element={<EnergyBoosters />} />
+                   <Route path='/sauces' element={<Sauces />} />
                    <Route path='/footer' element={<Footer />}  />
                    
                    </Routes>
