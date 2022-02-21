@@ -7,6 +7,7 @@ import Banner from './Banner'
 import BakeryAndCakes from './breakfastAndSnacks/bakeryAndCakes/BakeryAndCakes'
 import Breakfastandsnacks from './breakfastAndSnacks/BreakfastAndSnacks'
 import Cereals from './breakfastAndSnacks/Cereals/Cereals'
+import Chocolates from './breakfastAndSnacks/chocolates/Chocolates'
 import Coffee from './breakfastAndSnacks/coffee/Coffee'
 import Cookies from './breakfastAndSnacks/cookies/Cookies'
 import DriedFruits from './breakfastAndSnacks/driedFruits/DriedFruits'
@@ -69,6 +70,7 @@ export default function MainContent() {
                    <Route path='/cookies' element={<Cookies />}  />
                    <Route path='/dried-fruits' element={<DriedFruits />}  />
                    <Route path='/nuts' element={<Nuts />}  />
+                   <Route path='/chocolates' element={<Chocolates />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
