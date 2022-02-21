@@ -20,6 +20,7 @@ import Noodles from './breakfastAndSnacks/noodles/Noodles'
 import Nuts from './breakfastAndSnacks/nuts/Nuts'
 import Pasta from './breakfastAndSnacks/pasta/Pasta'
 import Sauces from './breakfastAndSnacks/sauces/Sauces'
+import SnacksAndChips from './breakfastAndSnacks/snacksAndChips/SnacksAndChips'
 import Soups from './breakfastAndSnacks/soups/Soups'
 import Tea from './breakfastAndSnacks/tea/Tea'
 import CategoryProducts from './categoryProducts/CategoryProducts'
@@ -71,6 +72,7 @@ export default function MainContent() {
                    <Route path='/dried-fruits' element={<DriedFruits />}  />
                    <Route path='/nuts' element={<Nuts />}  />
                    <Route path='/chocolates' element={<Chocolates />}  />
+                   <Route path='/snacks-and-chips' element={<SnacksAndChips />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
