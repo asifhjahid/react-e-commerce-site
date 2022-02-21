@@ -36,7 +36,7 @@ export default function CookingProductList() {
                    
                    
                    <div class="categoryItems">
-                   <Link to='/local-cooking'  style={{textDecoration:"none"}}>
+                   <Link to='/rice'  style={{textDecoration:"none"}}>
                     <div>
                     <CategoryItem 
                     categoryImage={cookingImage_1}
