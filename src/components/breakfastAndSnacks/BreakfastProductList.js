@@ -1,26 +1,25 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import BreakfastImage_1 from '../images/breakfastProducts/breakfast_1.png'
-import BreakfastImage_10 from '../images/breakfastProducts/breakfast_10.png'
-import BreakfastImage_11 from '../images/breakfastProducts/breakfast_11.png'
-import BreakfastImage_12 from '../images/breakfastProducts/breakfast_12.png'
-import BreakfastImage_13 from '../images/breakfastProducts/breakfast_13.png'
-import BreakfastImage_14 from '../images/breakfastProducts/breakfast_14.png'
-import BreakfastImage_15 from '../images/breakfastProducts/breakfast_15.png'
-import BreakfastImage_16 from '../images/breakfastProducts/breakfast_16.png'
-import BreakfastImage_17 from '../images/breakfastProducts/breakfast_17.png'
-import BreakfastImage_18 from '../images/breakfastProducts/breakfast_18.png'
-import BreakfastImage_2 from '../images/breakfastProducts/breakfast_2.png'
-import BreakfastImage_3 from '../images/breakfastProducts/breakfast_3.png'
-import BreakfastImage_4 from '../images/breakfastProducts/breakfast_4.png'
-import BreakfastImage_5 from '../images/breakfastProducts/breakfast_5.png'
-import BreakfastImage_6 from '../images/breakfastProducts/breakfast_6.png'
-import BreakfastImage_7 from '../images/breakfastProducts/breakfast_7.png'
-import BreakfastImage_8 from '../images/breakfastProducts/breakfast_8.png'
-import BreakfastImage_9 from '../images/breakfastProducts/breakfast_9.png'
-import CategoryListStyle from '../styles/CategoryList.styles'
-import CategoryItem from './CategoryItem'
-import ServiceTitle from './ServiceTitle'
+import BreakfastImage_1 from '../../images/breakfastProducts/breakfast_1.png'
+import BreakfastImage_10 from '../../images/breakfastProducts/breakfast_10.png'
+import BreakfastImage_11 from '../../images/breakfastProducts/breakfast_11.png'
+import BreakfastImage_12 from '../../images/breakfastProducts/breakfast_12.png'
+import BreakfastImage_13 from '../../images/breakfastProducts/breakfast_13.png'
+import BreakfastImage_14 from '../../images/breakfastProducts/breakfast_14.png'
+import BreakfastImage_15 from '../../images/breakfastProducts/breakfast_15.png'
+import BreakfastImage_16 from '../../images/breakfastProducts/breakfast_16.png'
+import BreakfastImage_17 from '../../images/breakfastProducts/breakfast_17.png'
+import BreakfastImage_18 from '../../images/breakfastProducts/breakfast_18.png'
+import BreakfastImage_2 from '../../images/breakfastProducts/breakfast_2.png'
+import BreakfastImage_3 from '../../images/breakfastProducts/breakfast_3.png'
+import BreakfastImage_4 from '../../images/breakfastProducts/breakfast_4.png'
+import BreakfastImage_5 from '../../images/breakfastProducts/breakfast_5.png'
+import BreakfastImage_6 from '../../images/breakfastProducts/breakfast_6.png'
+import BreakfastImage_7 from '../../images/breakfastProducts/breakfast_7.png'
+import BreakfastImage_8 from '../../images/breakfastProducts/breakfast_8.png'
+import BreakfastImage_9 from '../../images/breakfastProducts/breakfast_9.png'
+import CategoryListStyle from '../../styles/CategoryList.styles'
+import CategoryItem from '../CategoryItem'
 
 
 
@@ -29,13 +28,7 @@ export default function BreakfastProductList() {
         <CategoryListStyle>
             
                   {/* <div class="container"> */}
-                   
-                   <ServiceTitle 
-                    
-                    title='Breakfast &amp; Snacks'
-                    
-                   />
-                   
+                                  
                    <div class="categoryItems">
                    <Link to='/local-breakfast'  style={{textDecoration:"none"}}>
                     <div>
