@@ -26,6 +26,7 @@ import Tea from './breakfastAndSnacks/tea/Tea'
 import CategoryProducts from './categoryProducts/CategoryProducts'
 import Cooking from './cooking/Cooking'
 import Dal from './cooking/dal/Dal'
+import Flour from './cooking/flour/Flour'
 import Oil from './cooking/oil/Oil'
 import Rice from './cooking/rice/Rice'
 import Footer from './Footer'
@@ -81,6 +82,7 @@ export default function MainContent() {
                    <Route path='/rice' element={<Rice />}  />
                    <Route path='/dal' element={<Dal />}  />
                    <Route path='/oil' element={<Oil />}  />
+                   <Route path='/flour' element={<Flour />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
