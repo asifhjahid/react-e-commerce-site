@@ -24,6 +24,7 @@ import SnacksAndChips from './breakfastAndSnacks/snacksAndChips/SnacksAndChips'
 import Soups from './breakfastAndSnacks/soups/Soups'
 import Tea from './breakfastAndSnacks/tea/Tea'
 import CategoryProducts from './categoryProducts/CategoryProducts'
+import BakingIngredients from './cooking/bakingIngredients/BakingIngredients'
 import Cooking from './cooking/Cooking'
 import Dal from './cooking/dal/Dal'
 import Flour from './cooking/flour/Flour'
@@ -89,6 +90,7 @@ export default function MainContent() {
                    <Route path='/shemai-suji' element={<ShemaiAndSuji />}  />
                    <Route path='/salt-sugar' element={<SaltAndSugar />}  />
                    <Route path='/salad-dressing' element={<SaladDressing />}  />
+                   <Route path='/baking-ingredients' element={<BakingIngredients />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
