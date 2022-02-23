@@ -29,6 +29,7 @@ import Dal from './cooking/dal/Dal'
 import Flour from './cooking/flour/Flour'
 import Oil from './cooking/oil/Oil'
 import Rice from './cooking/rice/Rice'
+import SaladDressing from './cooking/saladDressing/SaladDressing'
 import SaltAndSugar from './cooking/saltAndSugar/SaltAndSugar'
 import ShemaiAndSuji from './cooking/shemaiAndSuji/ShemaiAndSuji'
 import Footer from './Footer'
@@ -87,6 +88,7 @@ export default function MainContent() {
                    <Route path='/flour' element={<Flour />}  />
                    <Route path='/shemai-suji' element={<ShemaiAndSuji />}  />
                    <Route path='/salt-sugar' element={<SaltAndSugar />}  />
+                   <Route path='/salad-dressing' element={<SaladDressing />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
