@@ -29,6 +29,7 @@ import Cooking from './cooking/Cooking'
 import Dal from './cooking/dal/Dal'
 import Flour from './cooking/flour/Flour'
 import Oil from './cooking/oil/Oil'
+import ReadyMix from './cooking/readyMix/ReadyMix'
 import Rice from './cooking/rice/Rice'
 import SaladDressing from './cooking/saladDressing/SaladDressing'
 import SaltAndSugar from './cooking/saltAndSugar/SaltAndSugar'
@@ -93,6 +94,7 @@ export default function MainContent() {
                    <Route path='/salad-dressing' element={<SaladDressing />}  />
                    <Route path='/baking-ingredients' element={<BakingIngredients />}  />
                    <Route path='/spices' element={<Spices />}  />
+                   <Route path='/ready-mix' element={<ReadyMix />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
