@@ -29,6 +29,7 @@ import Butter from './cooking/butter/Butter'
 import Cheese from './cooking/cheese/Cheese'
 import Cooking from './cooking/Cooking'
 import Dal from './cooking/dal/Dal'
+import Eggs from './cooking/egg/Egg'
 import Flour from './cooking/flour/Flour'
 import Oil from './cooking/oil/Oil'
 import ReadyMix from './cooking/readyMix/ReadyMix'
@@ -99,6 +100,7 @@ export default function MainContent() {
                    <Route path='/ready-mix' element={<ReadyMix />}  />
                    <Route path='/butter' element={<Butter />}  />
                    <Route path='/cheese' element={<Cheese />}  />
+                   <Route path='/eggs' element={<Eggs />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
