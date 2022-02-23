@@ -26,6 +26,7 @@ import Tea from './breakfastAndSnacks/tea/Tea'
 import CategoryProducts from './categoryProducts/CategoryProducts'
 import BakingIngredients from './cooking/bakingIngredients/BakingIngredients'
 import Butter from './cooking/butter/Butter'
+import Cheese from './cooking/cheese/Cheese'
 import Cooking from './cooking/Cooking'
 import Dal from './cooking/dal/Dal'
 import Flour from './cooking/flour/Flour'
@@ -97,6 +98,7 @@ export default function MainContent() {
                    <Route path='/spices' element={<Spices />}  />
                    <Route path='/ready-mix' element={<ReadyMix />}  />
                    <Route path='/butter' element={<Butter />}  />
+                   <Route path='/cheese' element={<Cheese />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
