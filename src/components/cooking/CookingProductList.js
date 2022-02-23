@@ -110,7 +110,7 @@ export default function CookingProductList() {
                     </div>
                     </Link>
 
-                    <Link to='/honey'  style={{textDecoration:"none"}}>
+                    <Link to='/noodles'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={cookingImage_9}
@@ -119,7 +119,7 @@ export default function CookingProductList() {
                     </div>
                     </Link>
 
-                    <Link to='/energyBoosters'  style={{textDecoration:"none"}}>
+                    <Link to='/sauces'  style={{textDecoration:"none"}}>
                      <div>
                      <CategoryItem 
                     categoryImage={cookingImage_10}
@@ -128,7 +128,7 @@ export default function CookingProductList() {
                     </div>
                     </Link>
 
-                    <Link to='/sauces'  style={{textDecoration:"none"}}>
+                    <Link to='/spices'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={cookingImage_11}

@@ -33,6 +33,7 @@ import Rice from './cooking/rice/Rice'
 import SaladDressing from './cooking/saladDressing/SaladDressing'
 import SaltAndSugar from './cooking/saltAndSugar/SaltAndSugar'
 import ShemaiAndSuji from './cooking/shemaiAndSuji/ShemaiAndSuji'
+import Spices from './cooking/spices/Spices'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
 import Home from './Home'
@@ -91,6 +92,7 @@ export default function MainContent() {
                    <Route path='/salt-sugar' element={<SaltAndSugar />}  />
                    <Route path='/salad-dressing' element={<SaladDressing />}  />
                    <Route path='/baking-ingredients' element={<BakingIngredients />}  />
+                   <Route path='/spices' element={<Spices />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
