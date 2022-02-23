@@ -147,7 +147,7 @@ export default function CookingProductList() {
                     </div>
                     </Link>
 
-                    <Link to='/coffee'  style={{textDecoration:"none"}}>
+                    <Link to='/butter'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={cookingImage_13}
