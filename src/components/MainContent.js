@@ -33,6 +33,7 @@ import Eggs from './cooking/egg/Egg'
 import Flour from './cooking/flour/Flour'
 import LiquidMilk from './cooking/liquidMilk/LiquidMilk'
 import Oil from './cooking/oil/Oil'
+import PowderMilk from './cooking/powderMilk/PowderMilk'
 import ReadyMix from './cooking/readyMix/ReadyMix'
 import Rice from './cooking/rice/Rice'
 import SaladDressing from './cooking/saladDressing/SaladDressing'
@@ -103,6 +104,7 @@ export default function MainContent() {
                    <Route path='/cheese' element={<Cheese />}  />
                    <Route path='/eggs' element={<Eggs />}  />
                    <Route path='/liquid-milk' element={<LiquidMilk />}  />
+                   <Route path='/powder-milk-creamer' element={<PowderMilk />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
