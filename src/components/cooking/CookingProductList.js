@@ -202,7 +202,7 @@ export default function CookingProductList() {
                     </div>
                     </Link>
 
-                    <Link to='/snacks-and-chips'  style={{textDecoration:"none"}}>
+                    <Link to='/honey'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={cookingImage_19}
@@ -211,7 +211,7 @@ export default function CookingProductList() {
                     </div>
                     </Link>
 
-                    <Link to='/snacks-and-chips'  style={{textDecoration:"none"}}>
+                    <Link to='/pickles'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={cookingImage_20}
