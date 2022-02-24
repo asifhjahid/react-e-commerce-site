@@ -40,6 +40,7 @@ import SaladDressing from './cooking/saladDressing/SaladDressing'
 import SaltAndSugar from './cooking/saltAndSugar/SaltAndSugar'
 import ShemaiAndSuji from './cooking/shemaiAndSuji/ShemaiAndSuji'
 import Spices from './cooking/spices/Spices'
+import Yogurt from './cooking/yogurt/Yogurt'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
 import Home from './Home'
@@ -105,6 +106,7 @@ export default function MainContent() {
                    <Route path='/eggs' element={<Eggs />}  />
                    <Route path='/liquid-milk' element={<LiquidMilk />}  />
                    <Route path='/powder-milk-creamer' element={<PowderMilk />}  />
+                   <Route path='/yogurt' element={<Yogurt />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
