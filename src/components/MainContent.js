@@ -43,6 +43,7 @@ import SaltAndSugar from './cooking/saltAndSugar/SaltAndSugar'
 import ShemaiAndSuji from './cooking/shemaiAndSuji/ShemaiAndSuji'
 import Spices from './cooking/spices/Spices'
 import Yogurt from './cooking/yogurt/Yogurt'
+import Dairy from './dairy/Dairy'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
 import Fruits from './fruitsAndVegetables/fruits/Fruits'
@@ -80,7 +81,6 @@ export default function MainContent() {
                    <Route path='/servicesection' element={ <ServiceSection />}  />
                    <Route path='/hygieneproduct' element={<HygieneProducts />} />
                    <Route path='/breakfast-snacks' element={<Breakfastandsnacks />} />
-                   <Route path='/local-breakfast' element={<Localbreakfasts />} />
                    <Route path='/local-breakfast' element={<Localbreakfasts />} />
                    <Route path='/cereals' element={<Cereals />} />
                    <Route path='/pasta' element={<Pasta />} />
@@ -125,6 +125,7 @@ export default function MainContent() {
                    <Route path='/fruits-and-vegetables' element={<FruitsAndVegetables />}  />
                    <Route path='/vegetables' element={<Vegetables />}  />
                    <Route path='/fruits' element={<Fruits />}  />
+                   <Route path='/dairy' element={<Dairy />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    

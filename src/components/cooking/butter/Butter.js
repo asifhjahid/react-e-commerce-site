@@ -11,7 +11,7 @@ const Butter = () => {
         <div>
            <TopBannerList />
             <ServiceTitle
-            title='Ready Mix'
+            title='Butter'
             />
            <ButterProductList />
         </div>
