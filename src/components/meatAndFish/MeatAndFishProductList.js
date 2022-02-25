@@ -17,7 +17,7 @@ export default function meatAndFishProductList() {
                    
                    
                    <div class="categoryItems">
-                   <Link to='/rice'  style={{textDecoration:"none"}}>
+                   <Link to='/meat'  style={{textDecoration:"none"}}>
                     <div>
                     <CategoryItem 
                     categoryImage={meatAndFishImage_1}

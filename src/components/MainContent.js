@@ -48,6 +48,7 @@ import FreshProductsSection from './freshProducts/FreshProductsSection'
 import Home from './Home'
 import HygieneProducts from './hygieneProducts/HygieneProducts'
 import LeftSideBar from './LeftSideBar'
+import Meat from './meatAndFish/meat/Meat'
 import MeatAndFish from './meatAndFish/MeatAndFish'
 import Preorder from './preorder/Preorder'
 import RegularProductsSection from './regularProducts/RegularProductsSection'
@@ -113,6 +114,7 @@ export default function MainContent() {
                    <Route path='/pickles' element={<Pickles />}  />
                    <Route path='/other-ingredient' element={<OtherIngredient />}  />
                    <Route path='/meat-and-fish' element={<MeatAndFish />}  />
+                   <Route path='/meat' element={<Meat />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
