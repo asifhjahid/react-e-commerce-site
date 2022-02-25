@@ -77,7 +77,7 @@ export default function dairyProductList() {
                     </Link>
 
 
-                    <Link to='/salad-dressing'  style={{textDecoration:"none"}}>
+                    <Link to='/sweets'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={dairyImage_7}

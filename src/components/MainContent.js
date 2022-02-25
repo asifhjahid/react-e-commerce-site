@@ -44,6 +44,7 @@ import ShemaiAndSuji from './cooking/shemaiAndSuji/ShemaiAndSuji'
 import Spices from './cooking/spices/Spices'
 import Yogurt from './cooking/yogurt/Yogurt'
 import Dairy from './dairy/Dairy'
+import Sweets from './dairy/sweets/Sweets'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
 import Fruits from './fruitsAndVegetables/fruits/Fruits'
@@ -126,6 +127,7 @@ export default function MainContent() {
                    <Route path='/vegetables' element={<Vegetables />}  />
                    <Route path='/fruits' element={<Fruits />}  />
                    <Route path='/dairy' element={<Dairy />}  />
+                   <Route path='/sweets' element={<Sweets />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
