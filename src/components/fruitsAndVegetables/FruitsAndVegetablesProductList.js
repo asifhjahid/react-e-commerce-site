@@ -25,7 +25,7 @@ export default function fruitsAndVegetablesProductProductList() {
                     </div>
                     </Link>
                     
-                    <Link to='/fish'  style={{textDecoration:"none"}}>
+                    <Link to='/fruits'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={fruitsAndVegetablesImage_2}
