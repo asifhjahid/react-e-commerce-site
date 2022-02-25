@@ -35,7 +35,7 @@ export default function meatAndFishProductList() {
                     </div>
                     </Link>
 
-                    <Link to='/oil'  style={{textDecoration:"none"}}>
+                    <Link to='/dried-fish'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={meatAndFishImage_3}

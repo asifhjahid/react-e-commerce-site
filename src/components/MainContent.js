@@ -48,6 +48,7 @@ import FreshProductsSection from './freshProducts/FreshProductsSection'
 import Home from './Home'
 import HygieneProducts from './hygieneProducts/HygieneProducts'
 import LeftSideBar from './LeftSideBar'
+import DriedFish from './meatAndFish/driedFish/DriedFish'
 import Fish from './meatAndFish/fish/Fish'
 import Meat from './meatAndFish/meat/Meat'
 import MeatAndFish from './meatAndFish/MeatAndFish'
@@ -117,6 +118,7 @@ export default function MainContent() {
                    <Route path='/meat-and-fish' element={<MeatAndFish />}  />
                    <Route path='/meat' element={<Meat />}  />
                    <Route path='/fish' element={<Fish />}  />
+                   <Route path='/dried-fish' element={<DriedFish />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
