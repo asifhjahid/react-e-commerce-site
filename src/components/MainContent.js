@@ -47,6 +47,7 @@ import Dairy from './dairy/Dairy'
 import Sweets from './dairy/sweets/Sweets'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
+import Frozen from './frozenAndCanned/frozen/Frozen'
 import FrozenAndCanned from './frozenAndCanned/FrozenAndCanned'
 import Fruits from './fruitsAndVegetables/fruits/Fruits'
 import FruitsAndVegetables from './fruitsAndVegetables/FruitsAndVegetables'
@@ -130,6 +131,7 @@ export default function MainContent() {
                    <Route path='/dairy' element={<Dairy />}  />
                    <Route path='/sweets' element={<Sweets />}  />
                    <Route path='/frozen-and-canned' element={<FrozenAndCanned />}  />
+                   <Route path='/frozen' element={<Frozen />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    

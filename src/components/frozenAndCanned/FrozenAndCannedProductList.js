@@ -7,7 +7,7 @@ import CategoryItem from '../CategoryItem'
 
 
 
-export default function FrozenAndCannedProductProductList() {
+export default function FrozenAndCannedProductList() {
     return (
         <CategoryListStyle>
             
@@ -16,7 +16,7 @@ export default function FrozenAndCannedProductProductList() {
                    
                    
                    <div class="categoryItems">
-                   <Link to='/vegetables'  style={{textDecoration:"none"}}>
+                   <Link to='/frozen'  style={{textDecoration:"none"}}>
                     <div>
                     <CategoryItem 
                     categoryImage={frozenAndCannedImage_1}
