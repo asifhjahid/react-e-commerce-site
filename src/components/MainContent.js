@@ -48,6 +48,7 @@ import FreshProductsSection from './freshProducts/FreshProductsSection'
 import Home from './Home'
 import HygieneProducts from './hygieneProducts/HygieneProducts'
 import LeftSideBar from './LeftSideBar'
+import Fish from './meatAndFish/fish/Fish'
 import Meat from './meatAndFish/meat/Meat'
 import MeatAndFish from './meatAndFish/MeatAndFish'
 import Preorder from './preorder/Preorder'
@@ -115,6 +116,7 @@ export default function MainContent() {
                    <Route path='/other-ingredient' element={<OtherIngredient />}  />
                    <Route path='/meat-and-fish' element={<MeatAndFish />}  />
                    <Route path='/meat' element={<Meat />}  />
+                   <Route path='/fish' element={<Fish />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
