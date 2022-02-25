@@ -19,6 +19,7 @@ const CategoryItemStyle=styled.div`
                         flex-direction: column;
                         height: 160px;
                         padding: 10px;
+                        margin: 2px 0;
                         box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
                         @media (min-width: 767px) {
                                 .categoryItem {

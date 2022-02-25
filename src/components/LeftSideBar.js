@@ -72,10 +72,12 @@ export default function LeftSideBar({showNav,setShowNav}) {
                 title="Cooking"
                 />
                 </Link>
+                <Link to='/meat-and-fish'  style={{textDecoration:"none"}}>
                 <LeftSideBarListItems
                 image = { MeatFishImage}
                 title="Meat &amp; Fish"
                 />
+                </Link>
                 <LeftSideBarListItems
                 image = { FruitsImage}
                 title="Fruits &amp; Vegetables"
