@@ -33,6 +33,7 @@ import Eggs from './cooking/egg/Egg'
 import Flour from './cooking/flour/Flour'
 import LiquidMilk from './cooking/liquidMilk/LiquidMilk'
 import Oil from './cooking/oil/Oil'
+import OtherIngredient from './cooking/otherIngredient/OtherIngredient'
 import Pickles from './cooking/pickles/Pickles'
 import PowderMilk from './cooking/powderMilk/PowderMilk'
 import ReadyMix from './cooking/readyMix/ReadyMix'
@@ -109,6 +110,7 @@ export default function MainContent() {
                    <Route path='/powder-milk-creamer' element={<PowderMilk />}  />
                    <Route path='/yogurt' element={<Yogurt />}  />
                    <Route path='/pickles' element={<Pickles />}  />
+                   <Route path='/other-ingredient' element={<OtherIngredient />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    

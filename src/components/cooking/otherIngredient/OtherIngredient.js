@@ -1,20 +1,20 @@
 import React from 'react';
 import ServiceTitle from '../../ServiceTitle';
 import TopBannerList from '../../TopBannerList';
-import NutsProductList from './NutsProductList';
+import OtherIngredientProductList from './OtherIngredientProductList';
 
 
 
-const Nuts = () => {
+const OtherIngredient = () => {
     return (
         <div>
            <TopBannerList />
             <ServiceTitle
-            title='Nuts'
+            title='Other Ingredient'
             /> 
-           <NutsProductList />
+           <OtherIngredientProductList />
         </div>
     );
 }
 
-export default Nuts;
+export default OtherIngredient;
