@@ -46,6 +46,7 @@ import Yogurt from './cooking/yogurt/Yogurt'
 import Footer from './Footer'
 import FreshProductsSection from './freshProducts/FreshProductsSection'
 import FruitsAndVegetables from './fruitsAndVegetables/FruitsAndVegetables'
+import Vegetables from './fruitsAndVegetables/vegetables/Vegetables'
 import Home from './Home'
 import HygieneProducts from './hygieneProducts/HygieneProducts'
 import LeftSideBar from './LeftSideBar'
@@ -121,6 +122,7 @@ export default function MainContent() {
                    <Route path='/fish' element={<Fish />}  />
                    <Route path='/dried-fish' element={<DriedFish />}  />
                    <Route path='/fruits-and-vegetables' element={<FruitsAndVegetables />}  />
+                   <Route path='/vegetables' element={<Vegetables />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
