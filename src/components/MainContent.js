@@ -8,6 +8,7 @@ import Beverages from './beverages/Beverages'
 import EnergyDrinks from './beverages/energyDrinks/EnergyDrinks'
 import PowderDrinks from './beverages/powderDrinks/PowderDrinks'
 import SoftDrinks from './beverages/softDrinks/SoftDrinks'
+import Water from './beverages/water/Water'
 import BakeryAndCakes from './breakfastAndSnacks/bakeryAndCakes/BakeryAndCakes'
 import Breakfastandsnacks from './breakfastAndSnacks/BreakfastAndSnacks'
 import Cereals from './breakfastAndSnacks/Cereals/Cereals'
@@ -142,6 +143,7 @@ export default function MainContent() {
                    <Route path='/energy-drinks' element={<EnergyDrinks />}  />
                    <Route path='/soft-drinks' element={<SoftDrinks />}  />
                    <Route path='/powder-drinks' element={<PowderDrinks />}  />
+                   <Route path='/water' element={<Water />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
