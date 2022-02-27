@@ -60,6 +60,7 @@ import FruitsAndVegetables from './fruitsAndVegetables/FruitsAndVegetables'
 import Vegetables from './fruitsAndVegetables/vegetables/Vegetables'
 import Home from './Home'
 import HygieneProducts from './hygieneProducts/HygieneProducts'
+import BabyFood from './kidsCare/babyFood/BabyFood'
 import KidsCare from './kidsCare/KidsCare'
 import LeftSideBar from './LeftSideBar'
 import DriedFish from './meatAndFish/driedFish/DriedFish'
@@ -146,6 +147,7 @@ export default function MainContent() {
                    <Route path='/powder-drinks' element={<PowderDrinks />}  />
                    <Route path='/water' element={<Water />}  />
                    <Route path='/kids-care' element={<KidsCare />}  />
+                   <Route path='/baby-food' element={<BabyFood />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
