@@ -21,7 +21,7 @@ export default function beveragesProductList() {
                    
                    
                    <div class="categoryItems">
-                   <Link to='/frozen'  style={{textDecoration:"none"}}>
+                   <Link to='/tea'  style={{textDecoration:"none"}}>
                     <div>
                     <CategoryItem 
                     categoryImage={beveragesImage_1}
@@ -30,7 +30,7 @@ export default function beveragesProductList() {
                     </div>
                     </Link>
                     
-                    <Link to='/canned'  style={{textDecoration:"none"}}>
+                    <Link to='/coffee'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={beveragesImage_2}
@@ -39,7 +39,7 @@ export default function beveragesProductList() {
                     </div>
                     </Link> 
 
-                     <Link to='/canned'  style={{textDecoration:"none"}}>
+                     <Link to='/energy-drinks'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={beveragesImage_3}
@@ -48,7 +48,7 @@ export default function beveragesProductList() {
                     </div>
                     </Link>   
 
-                     <Link to='/canned'  style={{textDecoration:"none"}}>
+                     <Link to='/soft-drinks'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={beveragesImage_4}
@@ -57,7 +57,7 @@ export default function beveragesProductList() {
                     </div>
                     </Link>   
 
-                     <Link to='/canned'  style={{textDecoration:"none"}}>
+                     <Link to='/juice'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={beveragesImage_5}
@@ -66,7 +66,7 @@ export default function beveragesProductList() {
                     </div>
                     </Link>  
 
-                     <Link to='/canned'  style={{textDecoration:"none"}}>
+                     <Link to='/powder-drinks'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={beveragesImage_6}
@@ -75,7 +75,7 @@ export default function beveragesProductList() {
                     </div>
                     </Link>   
 
-                    <Link to='/canned'  style={{textDecoration:"none"}}>
+                    <Link to='/water'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={beveragesImage_7}
