@@ -25,7 +25,7 @@ export default function FrozenAndCannedProductList() {
                     </div>
                     </Link>
                     
-                    <Link to='/fruits'  style={{textDecoration:"none"}}>
+                    <Link to='/canned'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={frozenAndCannedImage_2}
