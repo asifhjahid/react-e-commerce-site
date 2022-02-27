@@ -96,10 +96,12 @@ export default function LeftSideBar({showNav,setShowNav}) {
                 title="Frozen &amp; Canned"
                 />
                 </Link>
+                <Link to='/beverages'  style={{textDecoration:"none"}}>
                 <LeftSideBarListItems
                 image = { BeveragesImage}
                 title="Beverages"
                 />
+                </Link>
                 <LeftSideBarListItems
                 image = { KidsImage}
                 title="Kids Care"
