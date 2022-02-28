@@ -61,6 +61,7 @@ import Vegetables from './fruitsAndVegetables/vegetables/Vegetables'
 import Home from './Home'
 import HygieneProducts from './hygieneProducts/HygieneProducts'
 import BabyFood from './kidsCare/babyFood/BabyFood'
+import BabySkinCare from './kidsCare/babySkinCare/BabySkinCare'
 import Diapers from './kidsCare/diapers/Diapers'
 import Feeders from './kidsCare/feeders/Feeders'
 import KidsCare from './kidsCare/KidsCare'
@@ -158,6 +159,7 @@ export default function MainContent() {
                    <Route path='/feeders' element={<Feeders />}  />
                    <Route path='/oral-care' element={<OralCare />}  />
                    <Route path='/skin-care' element={<SkinCare />}  />
+                   <Route path='/baby-skin-care' element={<BabySkinCare />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
