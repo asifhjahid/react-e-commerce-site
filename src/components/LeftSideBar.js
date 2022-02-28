@@ -108,10 +108,12 @@ export default function LeftSideBar({showNav,setShowNav}) {
                 title="Kids Care"
                 />
                 </Link>
+                <Link to='/personal-care'  style={{textDecoration:"none"}}>
                 <LeftSideBarListItems
                 image = { PersonalCareImage}
                 title="Personal Care"
                 />
+                </Link>
                 <LeftSideBarListItems
                 image = { KitchenImage}
                 title="Home &amp; Kitchen"

@@ -73,6 +73,7 @@ import DriedFish from './meatAndFish/driedFish/DriedFish'
 import Fish from './meatAndFish/fish/Fish'
 import Meat from './meatAndFish/meat/Meat'
 import MeatAndFish from './meatAndFish/MeatAndFish'
+import PersonalCare from './personalCare/PersonalCare'
 import Preorder from './preorder/Preorder'
 import RegularProductsSection from './regularProducts/RegularProductsSection'
 import ServiceSection from './serviceSection/ServiceSection'
@@ -160,6 +161,7 @@ export default function MainContent() {
                    <Route path='/oral-care' element={<OralCare />}  />
                    <Route path='/skin-care' element={<SkinCare />}  />
                    <Route path='/baby-skin-care' element={<BabySkinCare />}  />
+                   <Route path='/personal-care' element={<PersonalCare />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
