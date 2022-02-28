@@ -62,6 +62,7 @@ import Home from './Home'
 import HygieneProducts from './hygieneProducts/HygieneProducts'
 import BabyFood from './kidsCare/babyFood/BabyFood'
 import Diapers from './kidsCare/diapers/Diapers'
+import Feeders from './kidsCare/feeders/Feeders'
 import KidsCare from './kidsCare/KidsCare'
 import Wipes from './kidsCare/wipes/Wipes'
 import LeftSideBar from './LeftSideBar'
@@ -152,6 +153,7 @@ export default function MainContent() {
                    <Route path='/baby-food' element={<BabyFood />}  />
                    <Route path='/wipes' element={<Wipes />}  />
                    <Route path='/diapers' element={<Diapers />}  />
+                   <Route path='/feeders' element={<Feeders />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
