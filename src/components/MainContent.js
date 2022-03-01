@@ -76,6 +76,7 @@ import MeatAndFish from './meatAndFish/MeatAndFish'
 import FacialAndSkinCare from './personalCare/facialAndSkinCare/FacialAndSkinCare'
 import FirstAid from './personalCare/firstAid/FirstAid'
 import PersonalCare from './personalCare/PersonalCare'
+import SoapsAndBodyWash from './personalCare/soapsAndBodyWash/SoapsAndBodyWash'
 import Preorder from './preorder/Preorder'
 import RegularProductsSection from './regularProducts/RegularProductsSection'
 import ServiceSection from './serviceSection/ServiceSection'
@@ -166,6 +167,7 @@ export default function MainContent() {
                    <Route path='/personal-care' element={<PersonalCare />}  />
                    <Route path='/first-aid' element={<FirstAid />}  />
                    <Route path='/facial-skin-care' element={<FacialAndSkinCare />}  />
+                   <Route path='/soaps-body-wash' element={<SoapsAndBodyWash />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
