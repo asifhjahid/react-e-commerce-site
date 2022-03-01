@@ -73,6 +73,7 @@ import DriedFish from './meatAndFish/driedFish/DriedFish'
 import Fish from './meatAndFish/fish/Fish'
 import Meat from './meatAndFish/meat/Meat'
 import MeatAndFish from './meatAndFish/MeatAndFish'
+import Deodorants from './personalCare/deodorants/Deodorants'
 import FacialAndSkinCare from './personalCare/facialAndSkinCare/FacialAndSkinCare'
 import FirstAid from './personalCare/firstAid/FirstAid'
 import HairCare from './personalCare/hairCare/HairCare'
@@ -172,6 +173,7 @@ export default function MainContent() {
                    <Route path='/soaps-body-wash' element={<SoapsAndBodyWash />}  />
                    <Route path='/hair-care' element={<HairCare />}  />
                    <Route path='/hand-care' element={<HandCare />}  />
+                   <Route path='/deodorants' element={<Deodorants />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
