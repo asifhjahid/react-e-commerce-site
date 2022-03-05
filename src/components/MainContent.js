@@ -80,6 +80,7 @@ import HairCare from './personalCare/hairCare/HairCare'
 import HandCare from './personalCare/handCare/HandCare'
 import PersonalCare from './personalCare/PersonalCare'
 import SoapsAndBodyWash from './personalCare/soapsAndBodyWash/SoapsAndBodyWash'
+import TalcumPowder from './personalCare/talcumPowder/TalcumPowder'
 import Preorder from './preorder/Preorder'
 import RegularProductsSection from './regularProducts/RegularProductsSection'
 import ServiceSection from './serviceSection/ServiceSection'
@@ -174,6 +175,7 @@ export default function MainContent() {
                    <Route path='/hair-care' element={<HairCare />}  />
                    <Route path='/hand-care' element={<HandCare />}  />
                    <Route path='/deodorants' element={<Deodorants />}  />
+                   <Route path='/talcum-powder' element={<TalcumPowder />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    

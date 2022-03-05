@@ -90,7 +90,7 @@ export default function personalCareProductList() {
                     </div>
                     </Link>  
 
-                    <Link to='/tolcum-powder'  style={{textDecoration:"none"}}>
+                    <Link to='/talcum-powder'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={personalCareImage_8}
