@@ -78,6 +78,7 @@ import Deodorants from './personalCare/deodorants/Deodorants'
 import FacialAndSkinCare from './personalCare/facialAndSkinCare/FacialAndSkinCare'
 import Feminine from './personalCare/feminine/Feminine'
 import FirstAid from './personalCare/firstAid/FirstAid'
+import FoodSupplements from './personalCare/foodSupplements/FoodSupplements'
 import HairCare from './personalCare/hairCare/HairCare'
 import HandCare from './personalCare/handCare/HandCare'
 import PersonalCare from './personalCare/PersonalCare'
@@ -182,6 +183,7 @@ export default function MainContent() {
                    <Route path='/tissue-wipes' element={<TissueWipes />}  />
                    <Route path='/feminine-hygiene' element={<Feminine />}  />
                    <Route path='/condoms' element={<Condoms />}  />
+                   <Route path='/food-supplements' element={<FoodSupplements />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
