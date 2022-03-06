@@ -59,6 +59,7 @@ import Fruits from './fruitsAndVegetables/fruits/Fruits'
 import FruitsAndVegetables from './fruitsAndVegetables/FruitsAndVegetables'
 import Vegetables from './fruitsAndVegetables/vegetables/Vegetables'
 import Home from './Home'
+import AirFresheners from './homeAndKitchen/airFresheners/AirFresheners'
 import DishDetergent from './homeAndKitchen/dishDetergent/DishDetergent'
 import HomeAndKitchen from './homeAndKitchen/HomeAndKitchen'
 import HomeCleaner from './homeAndKitchen/homeCleaner/HomeCleaner'
@@ -192,6 +193,7 @@ export default function MainContent() {
                    <Route path='/dish-detergent' element={<DishDetergent />}  />
                    <Route path='/laundry' element={<Laundry />}  />
                    <Route path='/home-cleaner' element={<HomeCleaner />}  />
+                   <Route path='/air-fresheners' element={<AirFresheners />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    

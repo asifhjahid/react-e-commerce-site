@@ -53,7 +53,7 @@ export default function HomeAndKitchenProductList() {
                     </div>
                     </Link> 
 
-                     <Link to='/toilet-hygiene'  style={{textDecoration:"none"}}>
+                     <Link to='/home-cleaner'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={homeAndKitchenImage_4}
