@@ -75,6 +75,7 @@ import Meat from './meatAndFish/meat/Meat'
 import MeatAndFish from './meatAndFish/MeatAndFish'
 import Deodorants from './personalCare/deodorants/Deodorants'
 import FacialAndSkinCare from './personalCare/facialAndSkinCare/FacialAndSkinCare'
+import Feminine from './personalCare/feminine/Feminine'
 import FirstAid from './personalCare/firstAid/FirstAid'
 import HairCare from './personalCare/hairCare/HairCare'
 import HandCare from './personalCare/handCare/HandCare'
@@ -178,6 +179,7 @@ export default function MainContent() {
                    <Route path='/deodorants' element={<Deodorants />}  />
                    <Route path='/talcum-powder' element={<TalcumPowder />}  />
                    <Route path='/tissue-wipes' element={<TissueWipes />}  />
+                   <Route path='/feminine-hygiene' element={<Feminine />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
