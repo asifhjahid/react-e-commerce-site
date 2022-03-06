@@ -73,6 +73,7 @@ import DriedFish from './meatAndFish/driedFish/DriedFish'
 import Fish from './meatAndFish/fish/Fish'
 import Meat from './meatAndFish/meat/Meat'
 import MeatAndFish from './meatAndFish/MeatAndFish'
+import Condoms from './personalCare/condoms/Condoms'
 import Deodorants from './personalCare/deodorants/Deodorants'
 import FacialAndSkinCare from './personalCare/facialAndSkinCare/FacialAndSkinCare'
 import Feminine from './personalCare/feminine/Feminine'
@@ -180,6 +181,7 @@ export default function MainContent() {
                    <Route path='/talcum-powder' element={<TalcumPowder />}  />
                    <Route path='/tissue-wipes' element={<TissueWipes />}  />
                    <Route path='/feminine-hygiene' element={<Feminine />}  />
+                   <Route path='/condoms' element={<Condoms />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
