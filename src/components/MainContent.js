@@ -59,6 +59,7 @@ import Fruits from './fruitsAndVegetables/fruits/Fruits'
 import FruitsAndVegetables from './fruitsAndVegetables/FruitsAndVegetables'
 import Vegetables from './fruitsAndVegetables/vegetables/Vegetables'
 import Home from './Home'
+import HomeAndKitchen from './homeAndKitchen/HomeAndKitchen'
 import HygieneProducts from './hygieneProducts/HygieneProducts'
 import BabyFood from './kidsCare/babyFood/BabyFood'
 import BabySkinCare from './kidsCare/babySkinCare/BabySkinCare'
@@ -184,6 +185,7 @@ export default function MainContent() {
                    <Route path='/feminine-hygiene' element={<Feminine />}  />
                    <Route path='/condoms' element={<Condoms />}  />
                    <Route path='/food-supplements' element={<FoodSupplements />}  />
+                   <Route path='/home-kitchen' element={<HomeAndKitchen />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
