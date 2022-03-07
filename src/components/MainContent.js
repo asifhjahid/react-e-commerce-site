@@ -61,6 +61,7 @@ import Vegetables from './fruitsAndVegetables/vegetables/Vegetables'
 import Home from './Home'
 import AirFresheners from './homeAndKitchen/airFresheners/AirFresheners'
 import DishDetergent from './homeAndKitchen/dishDetergent/DishDetergent'
+import Electricals from './homeAndKitchen/electricals/Electricals'
 import HomeAndKitchen from './homeAndKitchen/HomeAndKitchen'
 import HomeCleaner from './homeAndKitchen/homeCleaner/HomeCleaner'
 import Kitchenware from './homeAndKitchen/kitchenware/Kitchenware'
@@ -200,6 +201,7 @@ export default function MainContent() {
                    <Route path='/pest-control' element={<PestControl />}  />
                    <Route path='/napkins-tissue' element={<NapkinsAndTissue />}  />
                    <Route path='/kitchenware' element={<Kitchenware />}  />
+                   <Route path='/lights-electricals' element={<Electricals />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
