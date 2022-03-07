@@ -120,10 +120,12 @@ export default function LeftSideBar({showNav,setShowNav}) {
                 title="Home &amp; Kitchen"
                 />
                 </Link>
+                <Link to='/stationary'  style={{textDecoration:"none"}}>
                 <LeftSideBarListItems
                 image = { StationaryImage}
                 title="Stationary"
                 />
+                </Link>
             </div>
             
         </LeftSideBarStyle>

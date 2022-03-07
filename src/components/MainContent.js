@@ -97,6 +97,7 @@ import TissueWipes from './personalCare/tissueWipes/TissueWipes'
 import Preorder from './preorder/Preorder'
 import RegularProductsSection from './regularProducts/RegularProductsSection'
 import ServiceSection from './serviceSection/ServiceSection'
+import Stationary from './stationary/Stationary'
 
 
 
@@ -202,6 +203,7 @@ export default function MainContent() {
                    <Route path='/napkins-tissue' element={<NapkinsAndTissue />}  />
                    <Route path='/kitchenware' element={<Kitchenware />}  />
                    <Route path='/lights-electricals' element={<Electricals />}  />
+                   <Route path='/stationary' element={<Stationary />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
