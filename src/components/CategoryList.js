@@ -35,66 +35,86 @@ export default function CategoryList() {
                     />
                     </div>
                     </Link>
+                    <Link to='/cooking'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={CategorImage_2}
                     categoryName='Cooking'
                     />
                     </div>
+                    </Link>
+                    <Link to='/meat-and-fish'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={CategorImage_3}
                     categoryName='Meat &amp; Fish'
                     />
                     </div>
+                    </Link>
+                    <Link to='/fruits-and-vegetables'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={CategorImage_4}
                     categoryName='Fruits &amp; Vegetables'
                     />
                     </div>
+                    </Link>
+                    <Link to='/dairy'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={CategorImage_5}
                     categoryName='Dairy'
                     />
                     </div>
+                    </Link>
+                    <Link to='/frozen-and-canned'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={CategorImage_6}
                     categoryName='Frozen &amp; Canned'
                     />
                     </div>
+                    </Link>
+                    <Link to='/beverages'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={CategorImage_7}
                     categoryName='Beverages'
                     />
                     </div>
+                    </Link>
+                    <Link to='/kids-care'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={CategorImage_8}
                     categoryName='Kids Care'
                     />
                     </div>
+                    </Link>
+                    <Link to='/personal-care'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={CategorImage_9}
                     categoryName='Personal Care'
                     />
                     </div>
+                    </Link>
+                    <Link to='/home-kitchen'  style={{textDecoration:"none"}}>
                      <div>
                      <CategoryItem 
                     categoryImage={CategorImage_10}
                     categoryName='Home &amp; Kitchen'
                     />
                     </div>
+                    </Link>
+                    <Link to='/stationary'  style={{textDecoration:"none"}}>
                     <div>
                      <CategoryItem 
                     categoryImage={CategorImage_11}
                     categoryName='Stationary'
                     />
                     </div>
+                    </Link>
 
                 </div>
             {/* </div> */}
