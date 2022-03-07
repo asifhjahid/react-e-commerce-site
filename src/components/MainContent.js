@@ -64,6 +64,7 @@ import DishDetergent from './homeAndKitchen/dishDetergent/DishDetergent'
 import HomeAndKitchen from './homeAndKitchen/HomeAndKitchen'
 import HomeCleaner from './homeAndKitchen/homeCleaner/HomeCleaner'
 import Laundry from './homeAndKitchen/laundry/Laundry'
+import PestControl from './homeAndKitchen/pestControl/PestControl'
 import HygieneProducts from './hygieneProducts/HygieneProducts'
 import BabyFood from './kidsCare/babyFood/BabyFood'
 import BabySkinCare from './kidsCare/babySkinCare/BabySkinCare'
@@ -194,6 +195,7 @@ export default function MainContent() {
                    <Route path='/laundry' element={<Laundry />}  />
                    <Route path='/home-cleaner' element={<HomeCleaner />}  />
                    <Route path='/air-fresheners' element={<AirFresheners />}  />
+                   <Route path='/pest-control' element={<PestControl />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
