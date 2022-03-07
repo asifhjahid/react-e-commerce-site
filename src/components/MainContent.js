@@ -63,6 +63,7 @@ import AirFresheners from './homeAndKitchen/airFresheners/AirFresheners'
 import DishDetergent from './homeAndKitchen/dishDetergent/DishDetergent'
 import HomeAndKitchen from './homeAndKitchen/HomeAndKitchen'
 import HomeCleaner from './homeAndKitchen/homeCleaner/HomeCleaner'
+import Kitchenware from './homeAndKitchen/kitchenware/Kitchenware'
 import Laundry from './homeAndKitchen/laundry/Laundry'
 import NapkinsAndTissue from './homeAndKitchen/napkinsAndTissue/NapkinsAndTissue'
 import PestControl from './homeAndKitchen/pestControl/PestControl'
@@ -198,6 +199,7 @@ export default function MainContent() {
                    <Route path='/air-fresheners' element={<AirFresheners />}  />
                    <Route path='/pest-control' element={<PestControl />}  />
                    <Route path='/napkins-tissue' element={<NapkinsAndTissue />}  />
+                   <Route path='/kitchenware' element={<Kitchenware />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
