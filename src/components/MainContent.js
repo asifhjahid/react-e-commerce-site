@@ -97,6 +97,7 @@ import TissueWipes from './personalCare/tissueWipes/TissueWipes'
 import Preorder from './preorder/Preorder'
 import RegularProductsSection from './regularProducts/RegularProductsSection'
 import ServiceSection from './serviceSection/ServiceSection'
+import Batteries from './stationary/batteries/Batteries'
 import Notebooks from './stationary/notebooks/Notebooks'
 import Printing from './stationary/printing/Printing'
 import Stationary from './stationary/Stationary'
@@ -210,6 +211,7 @@ export default function MainContent() {
                    <Route path='/notebooks' element={<Notebooks />}  />
                    <Route path='/writing' element={<Writing />}  />
                    <Route path='/printing' element={<Printing />}  />
+                   <Route path='/batteries' element={<Batteries />}  />
                    <Route path='/footer' element={<Footer />}  />
                   
                    
